@@ -5,9 +5,20 @@ HST = loadmol2 hst.mol2
 loadamberparams gst.frcmod
 GST = loadmol2 gst.mol2
 model = loadpdb complex.pdb
-solvatebox model TIP3PBOX 9.050000000000002 iso
+solvatebox model TIP3PBOX 10.55 iso
 addionsrand model Na+ 12
 addionsrand model Cl- 3
+remove model model.2518
+remove model model.2519
+remove model model.2520
+remove model model.2521
+remove model model.2522
+remove model model.2523
+remove model model.2524
+remove model model.2525
+remove model model.2526
+remove model model.2527
+remove model model.2528
 savepdb model solvate.pdb
 saveamberparm model solvate.prmtop solvate.rst7
 desc model
