@@ -1,0 +1,18 @@
+source leaprc.water.tip3p
+source leaprc.gaff
+loadamberparams hst.frcmod
+HST = loadmol2 hst.mol2
+loadamberparams gst.frcmod
+GST = loadmol2 gst.mol2
+model = loadpdb complex.pdb
+solvatebox model TIP3PBOX 8.899999999999999 iso
+addionsrand model Na+ 12
+addionsrand model Cl- 3
+remove model model.2018
+remove model model.2019
+remove model model.2020
+remove model model.2021
+savepdb model solvate.pdb
+saveamberparm model solvate.prmtop solvate.rst7
+desc model
+quit
