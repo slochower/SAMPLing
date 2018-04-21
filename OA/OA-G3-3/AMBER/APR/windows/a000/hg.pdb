@@ -200,4 +200,11 @@ HETATM  198  H6  GST     2       2.831   0.127  11.844  0.00  0.00           H
 HETATM  199  H7  GST     2       2.072  -1.461  11.859  0.00  0.00           H  
 HETATM  200  H8  GST     2       0.558   1.220  11.414  0.00  0.00           H  
 HETATM  201  H9  GST     2      -0.146  -0.444  11.482  0.00  0.00           H  
+TER     202      GST     2
+HETATM  203 DUM  DM1     3       0.000   0.000   0.000  0.00  0.00          PB  
+TER     204      DM1     3
+HETATM  205 DUM  DM2     4       0.000   0.000  -3.000  0.00  0.00          PB  
+TER     206      DM2     4
+HETATM  207 DUM  DM3     5       0.000   2.200  -5.200  0.00  0.00          PB  
+TER     208      DM3     5
 END                                                                             
