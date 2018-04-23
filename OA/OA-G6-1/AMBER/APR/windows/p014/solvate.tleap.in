@@ -14,9 +14,9 @@ addionsrand model Na+ 0
 addionsrand model Cl- 0
 addionsrand model Na+ 4
 addionsrand model Cl- 4
-remove model model.2522
 remove model model.2523
 remove model model.2524
+remove model model.2525
 remove model model.2526
 savepdb model solvate.pdb
 saveamberparm model solvate.prmtop solvate.rst7

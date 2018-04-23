@@ -1,4 +1,4 @@
-log started: Sat Apr 21 12:57:38 2018
+log started: Sun Apr 22 16:30:03 2018
 
 Log file: ./leap.log
 >> #
@@ -205,30 +205,30 @@ Center of solvent box is: -18.774349, -18.774349, -18.774349
 > addionsrand model Na+ 0
 9 Na+ ions required to neutralize.
 Adding 9 counter ions to "model". 2518 solvent molecules will remain.
-0: Placed Na+ in model at (-4.66, 2.44, 17.29).
-0: Placed Na+ in model at (-12.86, -14.18, 10.61).
-0: Placed Na+ in model at (-14.52, 11.95, -14.15).
-0: Placed Na+ in model at (-11.79, 7.17, -7.04).
-0: Placed Na+ in model at (16.54, -12.49, 3.52).
-0: Placed Na+ in model at (19.08, -4.70, 4.96).
-0: Placed Na+ in model at (-2.99, -7.55, 15.07).
-0: Placed Na+ in model at (15.52, 2.05, 2.80).
-0: Placed Na+ in model at (17.03, -20.32, -11.02).
+0: Placed Na+ in model at (-8.71, 6.45, 17.89).
+0: Placed Na+ in model at (8.40, 4.41, -12.25).
+0: Placed Na+ in model at (-20.28, 0.79, -22.60).
+0: Placed Na+ in model at (10.32, 0.44, -10.93).
+0: Placed Na+ in model at (3.04, -21.21, -4.32).
+0: Placed Na+ in model at (16.10, -14.89, 19.41).
+0: Placed Na+ in model at (-8.39, 18.60, -20.56).
+0: Placed Na+ in model at (-8.81, -16.51, 20.55).
+0: Placed Na+ in model at (11.90, 9.86, 7.03).
 > addionsrand model Cl- 0
 addIonsRand: 1st Ion & target are the same charge:
      can't neutralize.
 > addionsrand model Na+ 4
 Adding 4 counter ions to "model". 2514 solvent molecules will remain.
-0: Placed Na+ in model at (-15.32, 0.47, 11.98).
-0: Placed Na+ in model at (10.61, 13.05, -20.69).
-0: Placed Na+ in model at (14.73, 4.01, 23.39).
-0: Placed Na+ in model at (6.82, 15.79, -23.40).
+0: Placed Na+ in model at (-13.43, 18.28, -1.63).
+0: Placed Na+ in model at (-12.86, 4.59, 10.61).
+0: Placed Na+ in model at (-19.43, -10.19, -21.98).
+0: Placed Na+ in model at (1.10, 10.66, 20.95).
 > addionsrand model Cl- 4
 Adding 4 counter ions to "model". 2510 solvent molecules will remain.
-0: Placed Cl- in model at (-18.07, 6.07, 10.87).
-0: Placed Cl- in model at (-2.68, -14.89, 0.64).
-0: Placed Cl- in model at (6.50, -19.93, -7.43).
-0: Placed Cl- in model at (-13.98, 5.35, 17.88).
+0: Placed Cl- in model at (15.63, 18.97, -20.30).
+0: Placed Cl- in model at (-15.29, -9.03, 17.70).
+0: Placed Cl- in model at (-11.79, -11.61, -7.04).
+0: Placed Cl- in model at (8.66, 4.56, -8.52).
 > remove model model.2523
 > remove model model.2524
 > remove model model.2525
@@ -419,7 +419,6 @@ R<WAT 145>
 R<WAT 146>
 R<WAT 147>
 R<WAT 148>
-R<WAT 149>
 R<WAT 150>
 R<WAT 151>
 R<WAT 152>
@@ -439,7 +438,6 @@ R<WAT 165>
 R<WAT 166>
 R<WAT 167>
 R<WAT 168>
-R<WAT 169>
 R<WAT 170>
 R<WAT 171>
 R<WAT 172>
@@ -457,6 +455,7 @@ R<WAT 183>
 R<WAT 184>
 R<WAT 185>
 R<WAT 186>
+R<WAT 187>
 R<WAT 188>
 R<WAT 189>
 R<WAT 190>
@@ -503,6 +502,7 @@ R<WAT 230>
 R<WAT 231>
 R<WAT 232>
 R<WAT 233>
+R<WAT 234>
 R<WAT 235>
 R<WAT 236>
 R<WAT 237>
@@ -600,6 +600,7 @@ R<WAT 328>
 R<WAT 329>
 R<WAT 330>
 R<WAT 331>
+R<WAT 332>
 R<WAT 333>
 R<WAT 334>
 R<WAT 335>
@@ -619,6 +620,7 @@ R<WAT 348>
 R<WAT 349>
 R<WAT 350>
 R<WAT 351>
+R<WAT 352>
 R<WAT 353>
 R<WAT 354>
 R<WAT 355>
@@ -779,7 +781,6 @@ R<WAT 509>
 R<WAT 510>
 R<WAT 511>
 R<WAT 512>
-R<WAT 513>
 R<WAT 514>
 R<WAT 515>
 R<WAT 516>
@@ -824,7 +825,6 @@ R<WAT 554>
 R<WAT 555>
 R<WAT 556>
 R<WAT 557>
-R<WAT 558>
 R<WAT 559>
 R<WAT 560>
 R<WAT 561>
@@ -945,6 +945,7 @@ R<WAT 675>
 R<WAT 676>
 R<WAT 677>
 R<WAT 678>
+R<WAT 679>
 R<WAT 680>
 R<WAT 681>
 R<WAT 682>
@@ -976,6 +977,7 @@ R<WAT 707>
 R<WAT 708>
 R<WAT 709>
 R<WAT 710>
+R<WAT 711>
 R<WAT 712>
 R<WAT 713>
 R<WAT 714>
@@ -1109,7 +1111,6 @@ R<WAT 841>
 R<WAT 842>
 R<WAT 843>
 R<WAT 844>
-R<WAT 845>
 R<WAT 846>
 R<WAT 847>
 R<WAT 848>
@@ -1327,7 +1328,6 @@ R<WAT 1059>
 R<WAT 1060>
 R<WAT 1061>
 R<WAT 1062>
-R<WAT 1063>
 R<WAT 1064>
 R<WAT 1065>
 R<WAT 1066>
@@ -1335,6 +1335,7 @@ R<WAT 1067>
 R<WAT 1068>
 R<WAT 1069>
 R<WAT 1070>
+R<WAT 1071>
 R<WAT 1072>
 R<WAT 1073>
 R<WAT 1074>
@@ -1415,6 +1416,7 @@ R<WAT 1148>
 R<WAT 1149>
 R<WAT 1150>
 R<WAT 1151>
+R<WAT 1152>
 R<WAT 1153>
 R<WAT 1154>
 R<WAT 1155>
@@ -1451,7 +1453,6 @@ R<WAT 1185>
 R<WAT 1186>
 R<WAT 1187>
 R<WAT 1188>
-R<WAT 1189>
 R<WAT 1190>
 R<WAT 1191>
 R<WAT 1192>
@@ -1494,6 +1495,7 @@ R<WAT 1228>
 R<WAT 1229>
 R<WAT 1230>
 R<WAT 1231>
+R<WAT 1232>
 R<WAT 1233>
 R<WAT 1234>
 R<WAT 1235>
@@ -1560,7 +1562,6 @@ R<WAT 1295>
 R<WAT 1296>
 R<WAT 1297>
 R<WAT 1298>
-R<WAT 1299>
 R<WAT 1300>
 R<WAT 1301>
 R<WAT 1302>
@@ -1635,7 +1636,6 @@ R<WAT 1370>
 R<WAT 1371>
 R<WAT 1372>
 R<WAT 1373>
-R<WAT 1374>
 R<WAT 1375>
 R<WAT 1376>
 R<WAT 1377>
@@ -1759,7 +1759,6 @@ R<WAT 1494>
 R<WAT 1495>
 R<WAT 1496>
 R<WAT 1497>
-R<WAT 1498>
 R<WAT 1499>
 R<WAT 1500>
 R<WAT 1501>
@@ -1851,6 +1850,7 @@ R<WAT 1586>
 R<WAT 1587>
 R<WAT 1588>
 R<WAT 1589>
+R<WAT 1590>
 R<WAT 1591>
 R<WAT 1592>
 R<WAT 1593>
@@ -1868,7 +1868,6 @@ R<WAT 1604>
 R<WAT 1605>
 R<WAT 1606>
 R<WAT 1607>
-R<WAT 1608>
 R<WAT 1609>
 R<WAT 1610>
 R<WAT 1611>
@@ -1883,6 +1882,7 @@ R<WAT 1619>
 R<WAT 1620>
 R<WAT 1621>
 R<WAT 1622>
+R<WAT 1623>
 R<WAT 1624>
 R<WAT 1625>
 R<WAT 1626>
@@ -2163,7 +2163,6 @@ R<WAT 1900>
 R<WAT 1901>
 R<WAT 1902>
 R<WAT 1903>
-R<WAT 1904>
 R<WAT 1905>
 R<WAT 1906>
 R<WAT 1907>
@@ -2258,6 +2257,7 @@ R<WAT 1995>
 R<WAT 1996>
 R<WAT 1997>
 R<WAT 1998>
+R<WAT 1999>
 R<WAT 2000>
 R<WAT 2001>
 R<WAT 2002>
@@ -2266,6 +2266,7 @@ R<WAT 2004>
 R<WAT 2005>
 R<WAT 2006>
 R<WAT 2007>
+R<WAT 2008>
 R<WAT 2009>
 R<WAT 2010>
 R<WAT 2011>
@@ -2285,6 +2286,7 @@ R<WAT 2024>
 R<WAT 2025>
 R<WAT 2026>
 R<WAT 2027>
+R<WAT 2028>
 R<WAT 2029>
 R<WAT 2030>
 R<WAT 2031>
@@ -2310,10 +2312,10 @@ R<WAT 2050>
 R<WAT 2051>
 R<WAT 2052>
 R<WAT 2053>
-R<WAT 2054>
 R<WAT 2055>
 R<WAT 2056>
 R<WAT 2057>
+R<WAT 2058>
 R<WAT 2059>
 R<WAT 2060>
 R<WAT 2061>
@@ -2356,7 +2358,6 @@ R<WAT 2097>
 R<WAT 2098>
 R<WAT 2099>
 R<WAT 2100>
-R<WAT 2101>
 R<WAT 2102>
 R<WAT 2103>
 R<WAT 2104>
@@ -2435,6 +2436,7 @@ R<WAT 2176>
 R<WAT 2177>
 R<WAT 2178>
 R<WAT 2179>
+R<WAT 2180>
 R<WAT 2181>
 R<WAT 2182>
 R<WAT 2183>
@@ -2531,7 +2533,6 @@ R<WAT 2273>
 R<WAT 2274>
 R<WAT 2275>
 R<WAT 2276>
-R<WAT 2277>
 R<WAT 2278>
 R<WAT 2279>
 R<WAT 2280>
@@ -2617,6 +2618,7 @@ R<WAT 2359>
 R<WAT 2360>
 R<WAT 2361>
 R<WAT 2362>
+R<WAT 2363>
 R<WAT 2364>
 R<WAT 2365>
 R<WAT 2366>
@@ -2693,7 +2695,6 @@ R<WAT 2436>
 R<WAT 2437>
 R<WAT 2438>
 R<WAT 2439>
-R<WAT 2440>
 R<WAT 2441>
 R<WAT 2442>
 R<WAT 2443>
@@ -2758,7 +2759,6 @@ R<WAT 2501>
 R<WAT 2502>
 R<WAT 2503>
 R<WAT 2504>
-R<WAT 2505>
 R<WAT 2506>
 R<WAT 2507>
 R<WAT 2508>

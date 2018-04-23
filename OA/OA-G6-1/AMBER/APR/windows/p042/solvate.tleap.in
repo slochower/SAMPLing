@@ -21,6 +21,9 @@ remove model model.2526
 remove model model.2527
 remove model model.2528
 remove model model.2529
+remove model model.2530
 remove model model.2531
+savepdb model solvate.pdb
+saveamberparm model solvate.prmtop solvate.rst7
 desc model
 quit
