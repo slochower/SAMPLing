@@ -9,14 +9,18 @@ DM1 = loadmol2 dm1.mol2
 DM2 = loadmol2 dm2.mol2
 DM3 = loadmol2 dm3.mol2
 model = loadpdb hg.pdb
-solvatebox model TIP3PBOX {10.0 10.0 10.899999999999999}
+solvatebox model TIP3PBOX {10.0 10.0 15.0}
 addionsrand model Na+ 0
 addionsrand model Cl- 0
 addionsrand model Na+ 4
 addionsrand model Cl- 4
-remove model model.2523
-remove model model.2524
-remove model model.2525
+remove model model.3023
+remove model model.3024
+remove model model.3025
+remove model model.3026
+remove model model.3027
+remove model model.3028
+remove model model.3029
 savepdb model solvate.pdb
 saveamberparm model solvate.prmtop solvate.rst7
 desc model
