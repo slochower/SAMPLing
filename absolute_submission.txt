@@ -74,6 +74,8 @@ XXYXYXYXXYXY
 # Use as many lines of text as you need. All text following the "Method:" keyword will be regarded as part of your
 # free text methods description.
 Method:
+We used the attach-pull-release method to calculate absolute binding free energies of each host-guest complex. We used 14 "attach" umbrella sampling windows, during which time host-guest complex restraints are gradually applied, and 46 "pull" umbrella sampling windows to separate the host and guest. A final, analytic "release" phase was applied to leave the guest at standard concentration.
 
+The restraints were setup using our in-development Python package pAPRika. Six restraints were used to connect dummy atoms to the host anchor atoms, with a distance force constant of 5.0 kcal/mol-Å**2 and an angle force constant of 100.0 kcal/mol-rad**2. Three more restraints were used to orient the guest relative to the host and then separate the two molecules by 18 Å. The distance and angle force constants were the same as before.
 
-XYXYXYXYXYX
+For the OA-G3 simulations, we performed 10 ns of sampling per window. For the OA-G6 simulations, we performed 15 ns of sampling per window. For the CB8-G3 simulations, we performed 70 ns of sampling per window. In all cases, we used thermodynamic integration to compute the binding free energies (we have also repeated the analysis with MBAR, but have not uploaded those results here.) To compute the uncertainties, we drew 1000 samples from dU/dλ and the standard error of dU/dλ in each window, used trapezoidal integration for the total free energy, and then used blocking analysis to determine the final standard error of the mean.
