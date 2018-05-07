@@ -1,7 +1,0 @@
-  File "/projects/nhenriksen/projects/sampling-cb8/all5_woutj_sim/tmp/execute.py", line 58
-    sp.call(['rsync','-au', tmpdir+'/', oworkdir+'/')
-                                                    ^
-SyntaxError: invalid syntax
-rsync: chgrp "/projects/nhenriksen/projects/sampling-cb8/all5_woutj_sim/tmp/." failed: Operation not permitted (1)
-rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1039) [sender=3.0.6]
-Nodes:        tscc-gpu-8-5
