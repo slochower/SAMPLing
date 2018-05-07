@@ -1,0 +1,2 @@
+cat CB8-G3-?-wall-time.log | grep CB8 | awk '{printf "%s, %s,  \n",$1,$2}' | sed 's/Complex//g'
+tail -q -n 1 convg_batch/CB8-G3-?-ti-block-1.00.dat | awk '{printf "%.0f\n", 250*$4 + 250*$7}'
