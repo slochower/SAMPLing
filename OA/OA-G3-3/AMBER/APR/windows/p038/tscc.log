@@ -1,0 +1,145 @@
+2018-04-30 06:19:36 PM Started logging...
+2018-04-30 06:19:36 PM 2018-04-27_16:08:13_-0700-3c20478-0.0.3
+2018-04-30 06:19:36 PM Writing minimize.in
+2018-04-30 06:19:36 PM Running Minimization at ./
+2018-04-30 06:19:36 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c solvate.rst7 -i minimize.in -o minimize.out -r minimize.rst7 -inf minimize.mdinfo
+2018-04-30 06:19:43 PM Minimization completed...
+2018-04-30 06:19:43 PM Writing equil.000.in
+2018-04-30 06:19:43 PM Running MD at ./
+2018-04-30 06:19:43 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c minimize.rst7 -i equil.000.in -o equil.000.out -r equil.000.rst7 -x equil.000.nc -inf equil.000.mdinfo -e equil.000.mden
+2018-04-30 06:25:21 PM MD completed ...
+2018-04-30 06:25:21 PM Writing prod.000.in
+2018-04-30 06:25:21 PM Running MD at ./
+2018-04-30 06:25:21 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c equil.rst7 -i prod.000.in -o prod.000.out -r prod.000.rst7 -x prod.000.nc -inf prod.000.mdinfo -e prod.000.mden
+2018-04-30 06:29:43 PM MD completed ...
+2018-04-30 06:29:43 PM Writing prod.001.in
+2018-04-30 06:29:43 PM Running MD at ./
+2018-04-30 06:29:43 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.000.rst7 -i prod.001.in -o prod.001.out -r prod.001.rst7 -x prod.001.nc -inf prod.001.mdinfo -e prod.001.mden
+2018-04-30 06:34:04 PM MD completed ...
+2018-04-30 06:34:04 PM Writing prod.002.in
+2018-04-30 06:34:04 PM Running MD at ./
+2018-04-30 06:34:04 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.001.rst7 -i prod.002.in -o prod.002.out -r prod.002.rst7 -x prod.002.nc -inf prod.002.mdinfo -e prod.002.mden
+2018-04-30 06:38:25 PM MD completed ...
+2018-04-30 06:38:25 PM Writing prod.003.in
+2018-04-30 06:38:25 PM Running MD at ./
+2018-04-30 06:38:25 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.002.rst7 -i prod.003.in -o prod.003.out -r prod.003.rst7 -x prod.003.nc -inf prod.003.mdinfo -e prod.003.mden
+2018-04-30 06:42:45 PM MD completed ...
+2018-04-30 06:42:45 PM Writing prod.004.in
+2018-04-30 06:42:45 PM Running MD at ./
+2018-04-30 06:42:45 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.003.rst7 -i prod.004.in -o prod.004.out -r prod.004.rst7 -x prod.004.nc -inf prod.004.mdinfo -e prod.004.mden
+2018-04-30 06:47:06 PM MD completed ...
+2018-04-30 08:55:20 PM Started logging...
+2018-04-30 08:55:20 PM 2018-04-27_16:08:13_-0700-3c20478-0.0.3
+2018-04-30 08:55:20 PM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-04-30 08:55:20 PM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-04-30 08:55:20 PM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-04-30 08:55:20 PM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-04-30 08:55:20 PM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-04-30 08:55:20 PM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-01 07:24:28 AM Started logging...
+2018-05-01 07:24:28 AM 2018-04-30_14:45:29_-0700-dff30ec-0.0.3
+2018-05-01 07:24:28 AM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-01 07:24:28 AM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-01 07:24:28 AM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-01 07:24:28 AM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-01 07:24:28 AM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-01 07:24:28 AM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-02 12:39:52 PM Started logging...
+2018-05-02 12:39:52 PM 2018-04-30_14:45:29_-0700-dff30ec-0.0.3
+2018-05-02 12:39:52 PM Writing minimize.in
+2018-05-02 12:39:52 PM Running Minimization at ./
+2018-05-02 12:39:52 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c solvate.rst7 -i minimize.in -o minimize.out -r minimize.rst7 -inf minimize.mdinfo
+2018-05-02 12:39:54 PM Minimization completed...
+2018-05-02 12:39:54 PM Writing equil.000.in
+2018-05-02 12:39:54 PM Running MD at ./
+2018-05-02 12:39:54 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c minimize.rst7 -i equil.000.in -o equil.000.out -r equil.000.rst7 -x equil.000.nc -inf equil.000.mdinfo -e equil.000.mden
+2018-05-02 12:40:00 PM STDOUT/STDERR received from AMBER execution
+2018-05-02 12:40:00 PM b'ERROR: Calculation halted.  Periodic box dimensions have changed too much from their initial values.'
+2018-05-02 12:40:00 PM b'  Your system density has likely changed by a large amount, probably from'
+2018-05-02 12:40:00 PM b'  starting the simulation from a structure a long way from equilibrium.'
+2018-05-02 12:40:00 PM b''
+2018-05-02 12:40:00 PM b'  [Although this error can also occur if the simulation has blown up for some reason]'
+2018-05-02 12:40:00 PM b''
+2018-05-02 12:40:00 PM b'  The GPU code does not automatically reorganize grid cells and thus you'
+2018-05-02 12:40:00 PM b'  will need to restart the calculation from the previous restart file.'
+2018-05-02 12:40:00 PM b'  This will generate new grid cells and allow the calculation to continue.'
+2018-05-02 12:40:00 PM b'  It may be necessary to repeat this restarting multiple times if your system'
+2018-05-02 12:40:00 PM b'  is a long way from an equilibrated density.'
+2018-05-02 12:40:00 PM b''
+2018-05-02 12:40:00 PM b'  Alternatively you can run with the CPU code until the density has converged'
+2018-05-02 12:40:00 PM b'  and then switch back to the GPU code.'
+2018-05-02 12:40:00 PM b''
+2018-05-02 12:40:00 PM Simulation did not complete when executing the following ....
+2018-05-02 12:40:00 PM pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c minimize.rst7 -i equil.000.in -o equil.000.out -r equil.000.rst7 -x equil.000.nc -inf equil.000.mdinfo -e equil.000.mden
+2018-05-02 12:40:00 PM Writing equil.001.in
+2018-05-02 12:40:00 PM Running MD at ./
+2018-05-02 12:40:00 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c equil.000.rst7 -i equil.001.in -o equil.001.out -r equil.001.rst7 -x equil.001.nc -inf equil.001.mdinfo -e equil.001.mden
+2018-05-02 12:46:43 PM MD completed ...
+2018-05-02 12:46:43 PM Writing prod.000.in
+2018-05-02 12:46:43 PM Running MD at ./
+2018-05-02 12:46:43 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c equil.rst7 -i prod.000.in -o prod.000.out -r prod.000.rst7 -x prod.000.nc -inf prod.000.mdinfo -e prod.000.mden
+2018-05-02 12:51:37 PM MD completed ...
+2018-05-02 12:51:37 PM Writing prod.001.in
+2018-05-02 12:51:37 PM Running MD at ./
+2018-05-02 12:51:37 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.000.rst7 -i prod.001.in -o prod.001.out -r prod.001.rst7 -x prod.001.nc -inf prod.001.mdinfo -e prod.001.mden
+2018-05-02 12:56:34 PM MD completed ...
+2018-05-02 12:56:34 PM Writing prod.002.in
+2018-05-02 12:56:34 PM Running MD at ./
+2018-05-02 12:56:34 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.001.rst7 -i prod.002.in -o prod.002.out -r prod.002.rst7 -x prod.002.nc -inf prod.002.mdinfo -e prod.002.mden
+2018-05-02 01:01:28 PM MD completed ...
+2018-05-02 01:01:28 PM Writing prod.003.in
+2018-05-02 01:01:28 PM Running MD at ./
+2018-05-02 01:01:28 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.002.rst7 -i prod.003.in -o prod.003.out -r prod.003.rst7 -x prod.003.nc -inf prod.003.mdinfo -e prod.003.mden
+2018-05-02 01:06:24 PM MD completed ...
+2018-05-02 01:06:24 PM Writing prod.004.in
+2018-05-02 01:06:24 PM Running MD at ./
+2018-05-02 01:06:24 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.003.rst7 -i prod.004.in -o prod.004.out -r prod.004.rst7 -x prod.004.nc -inf prod.004.mdinfo -e prod.004.mden
+2018-05-02 01:11:18 PM MD completed ...
+2018-05-04 08:13:05 AM Started logging...
+2018-05-04 08:13:05 AM 2018-04-30_14:45:29_-0700-dff30ec-0.0.3
+2018-05-04 08:13:05 AM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-04 08:13:05 AM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-04 08:13:05 AM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-04 08:13:05 AM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-04 08:13:05 AM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-04 08:13:05 AM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-04 08:13:05 AM Writing prod.005.in
+2018-05-04 08:13:05 AM Running MD at ./
+2018-05-04 08:13:05 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.004.rst7 -i prod.005.in -o prod.005.out -r prod.005.rst7 -x prod.005.nc -inf prod.005.mdinfo -e prod.005.mden
+2018-05-04 08:17:45 AM MD completed ...
+2018-05-04 08:17:45 AM Writing prod.006.in
+2018-05-04 08:17:45 AM Running MD at ./
+2018-05-04 08:17:45 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.005.rst7 -i prod.006.in -o prod.006.out -r prod.006.rst7 -x prod.006.nc -inf prod.006.mdinfo -e prod.006.mden
+2018-05-04 08:22:23 AM MD completed ...
+2018-05-04 08:22:23 AM Writing prod.007.in
+2018-05-04 08:22:23 AM Running MD at ./
+2018-05-04 08:22:23 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.006.rst7 -i prod.007.in -o prod.007.out -r prod.007.rst7 -x prod.007.nc -inf prod.007.mdinfo -e prod.007.mden
+2018-05-04 08:27:01 AM MD completed ...
+2018-05-04 08:27:01 AM Writing prod.008.in
+2018-05-04 08:27:01 AM Running MD at ./
+2018-05-04 08:27:01 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.007.rst7 -i prod.008.in -o prod.008.out -r prod.008.rst7 -x prod.008.nc -inf prod.008.mdinfo -e prod.008.mden
+2018-05-04 08:31:40 AM MD completed ...
+2018-05-04 08:31:40 AM Writing prod.009.in
+2018-05-04 08:31:40 AM Running MD at ./
+2018-05-04 08:31:40 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.008.rst7 -i prod.009.in -o prod.009.out -r prod.009.rst7 -x prod.009.nc -inf prod.009.mdinfo -e prod.009.mden
+2018-05-04 08:36:19 AM MD completed ...
+2018-05-04 08:36:19 AM Writing prod.010.in
+2018-05-04 08:36:19 AM Running MD at ./
+2018-05-04 08:36:19 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.009.rst7 -i prod.010.in -o prod.010.out -r prod.010.rst7 -x prod.010.nc -inf prod.010.mdinfo -e prod.010.mden
+2018-05-04 08:40:58 AM MD completed ...
+2018-05-04 08:40:58 AM Writing prod.011.in
+2018-05-04 08:40:58 AM Running MD at ./
+2018-05-04 08:40:58 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.010.rst7 -i prod.011.in -o prod.011.out -r prod.011.rst7 -x prod.011.nc -inf prod.011.mdinfo -e prod.011.mden
+2018-05-04 08:45:36 AM MD completed ...
+2018-05-04 08:45:36 AM Writing prod.012.in
+2018-05-04 08:45:36 AM Running MD at ./
+2018-05-04 08:45:36 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.011.rst7 -i prod.012.in -o prod.012.out -r prod.012.rst7 -x prod.012.nc -inf prod.012.mdinfo -e prod.012.mden
+2018-05-04 08:50:14 AM MD completed ...
+2018-05-04 08:50:14 AM Writing prod.013.in
+2018-05-04 08:50:14 AM Running MD at ./
+2018-05-04 08:50:14 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.012.rst7 -i prod.013.in -o prod.013.out -r prod.013.rst7 -x prod.013.nc -inf prod.013.mdinfo -e prod.013.mden
+2018-05-04 08:54:53 AM MD completed ...
+2018-05-04 08:54:53 AM Writing prod.014.in
+2018-05-04 08:54:53 AM Running MD at ./
+2018-05-04 08:54:53 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.013.rst7 -i prod.014.in -o prod.014.out -r prod.014.rst7 -x prod.014.nc -inf prod.014.mdinfo -e prod.014.mden
+2018-05-04 08:59:32 AM MD completed ...

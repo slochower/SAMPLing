@@ -1,0 +1,278 @@
+sending incremental file list
+./
+SAMPLing-cut9.o11499221
+SAMPLing.o11478426
+SAMPLing.o11480465
+SAMPLing.o11484256
+complex_aligned.pdb
+complex_dummy.pdb
+disang.rest
+dm1.mol2
+dm2.mol2
+dm3.mol2
+dummy.frcmod
+equil.000.in
+equil.000.mden
+equil.000.mdinfo
+equil.000.nc
+equil.000.out
+equil.000.rst7
+equil.001.in
+equil.001.mden
+equil.001.mdinfo
+equil.001.nc
+equil.001.out
+equil.001.rst7
+equil.rst7
+gst.frcmod
+gst.mol2
+hg.pdb
+hst.frcmod
+hst.mol2
+leap.log
+minimize.in
+minimize.mdinfo
+minimize.out
+minimize.rst7
+prod.000.in
+prod.000.mden
+prod.000.mdinfo
+prod.000.nc
+prod.000.out
+prod.000.rst7
+prod.001.in
+prod.001.mden
+prod.001.mdinfo
+prod.001.nc
+prod.001.out
+prod.001.rst7
+prod.002.in
+prod.002.mden
+prod.002.mdinfo
+prod.002.nc
+prod.002.out
+prod.002.rst7
+prod.003.in
+prod.003.mden
+prod.003.mdinfo
+prod.003.nc
+prod.003.out
+prod.003.rst7
+prod.004.in
+prod.004.mden
+prod.004.mdinfo
+prod.004.nc
+prod.004.out
+prod.004.rst7
+simulate.py
+solvate.pdb
+solvate.prmtop
+solvate.rst7
+solvate.tleap.in
+tscc-driver.sh
+tscc.log
+
+sent 47021488 bytes  received 1364 bytes  31348568.00 bytes/sec
+total size is 47011275  speedup is 1.00
+sending incremental file list
+./
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/." failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/SAMPLing-cut9.o11499221" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/SAMPLing.o11478426" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/SAMPLing.o11480465" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/SAMPLing.o11484256" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/complex_aligned.pdb" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/complex_dummy.pdb" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/disang.rest" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/dm1.mol2" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/dm2.mol2" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/dm3.mol2" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/dummy.frcmod" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/equil.000.in" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/equil.000.mden" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/equil.000.mdinfo" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/equil.000.nc" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/equil.000.out" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/equil.000.rst7" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/equil.001.in" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/equil.001.mden" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/equil.001.mdinfo" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/equil.001.nc" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/equil.001.out" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/equil.001.rst7" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/equil.rst7" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/gst.frcmod" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/gst.mol2" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/hg.pdb" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/hst.frcmod" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/hst.mol2" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/leap.log" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/minimize.in" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/minimize.mdinfo" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/minimize.out" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/minimize.rst7" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.000.in" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.000.mden" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.000.mdinfo" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.000.nc" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.000.out" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.000.rst7" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.001.in" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.001.mden" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.001.mdinfo" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.001.nc" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.001.out" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.001.rst7" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.002.in" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.002.mden" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.002.mdinfo" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.002.nc" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.002.out" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.002.rst7" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.003.in" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.003.mden" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.003.mdinfo" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.003.nc" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.003.out" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.003.rst7" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.004.in" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.004.mden" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.004.mdinfo" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.004.nc" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.004.out" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/prod.004.rst7" failed: Operation not permitted (1)
+prod.005.in
+prod.005.mden
+prod.005.mdinfo
+prod.005.nc
+prod.005.out
+prod.005.rst7
+prod.006.in
+prod.006.mden
+prod.006.mdinfo
+prod.006.nc
+prod.006.out
+prod.006.rst7
+prod.007.in
+prod.007.mden
+prod.007.mdinfo
+prod.007.nc
+prod.007.out
+prod.007.rst7
+prod.008.in
+prod.008.mden
+prod.008.mdinfo
+prod.008.nc
+prod.008.out
+prod.008.rst7
+prod.009.in
+prod.009.mden
+prod.009.mdinfo
+prod.009.nc
+prod.009.out
+prod.009.rst7
+prod.010.in
+prod.010.mden
+prod.010.mdinfo
+prod.010.nc
+prod.010.out
+prod.010.rst7
+prod.011.in
+prod.011.mden
+prod.011.mdinfo
+prod.011.nc
+prod.011.out
+prod.011.rst7
+prod.012.in
+prod.012.mden
+prod.012.mdinfo
+prod.012.nc
+prod.012.out
+prod.012.rst7
+prod.013.in
+prod.013.mden
+prod.013.mdinfo
+prod.013.nc
+prod.013.out
+prod.013.rst7
+prod.014.in
+prod.014.mden
+prod.014.mdinfo
+prod.014.nc
+prod.014.out
+prod.014.rst7
+simulate.py
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/solvate.pdb" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/solvate.prmtop" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/solvate.rst7" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/solvate.tleap.in" failed: Operation not permitted (1)
+tscc-driver.sh
+tscc.log
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.005.in.L8w2wP" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.005.mden.eMvKJb" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.005.mdinfo.5dNrZx" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.005.nc.SxoOfU" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.005.out.3p9HCg" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.005.rst7.YPMp1C" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.006.in.tsdCrZ" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.006.mden.adKuSl" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.006.mdinfo.Bpr3kI" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.006.nc.Mr7gO4" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.006.out.l4Ninr" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.006.rst7.OdJ7XN" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.007.in.v43kAa" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.007.mden.KA1cdx" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.007.mdinfo.DhlIRT" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.007.nc.4peVwg" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.007.out.lXHWhD" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.007.rst7.SQON4Z" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.008.in.jPP6Sm" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.008.mden.yRD5HJ" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.008.mdinfo.vMcPy6" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.008.nc.o50dqt" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.008.out.fbXjnQ" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.008.rst7.Qk9cmd" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.009.in.bemymA" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.009.mden.eE5vnX" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.009.mdinfo.bfccqk" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.009.nc.IakvtH" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.009.out.7BtzG5" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.009.rst7.I5NvWt" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.010.in.PR0ceS" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.010.mden.UCMAwg" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.010.mdinfo.PQ6cRE" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.010.nc.UXEuc3" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.010.out.Lft5Er" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.010.rst7.SJ9B9P" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.011.in.tTGCFe" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.011.mden.oFnjcD" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.011.mdinfo.LlESK1" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.011.nc.yXi8jq" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.011.out.tzbBZO" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.011.rst7.GQNUGd" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.012.in.59mJpC" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.012.mden.qdUd90" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.012.mdinfo.fqQyUp" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.012.nc.WoCCGO" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.012.out.dsOEyd" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.012.rst7.4LLusC" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.013.in.7rBFn1" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.013.mden.slYJjq" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.013.mdinfo.vriChP" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.013.nc.wEsbge" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.013.out.1SjHkD" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.013.rst7.QPRZq2" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.014.in.JESMyr" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.014.mden.EklgHQ" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.014.mdinfo.zkyoRf" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.014.nc.eIJb2E" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.014.out.nloKi4" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.prod.014.rst7.qtZ8At" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.simulate.py.3LKcWS" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.tscc-driver.sh.uWnGji" failed: Operation not permitted (1)
+rsync: chgrp "/projects/davids4-kirkwood/projects/SAMPLing-2/SAMPLing/OA-cut9/OA-G3-3/AMBER/APR/windows/a001/.tscc.log.ZKjbJH" failed: Operation not permitted (1)
+
+sent 70568426 bytes  received 1416 bytes  47046561.33 bytes/sec
+total size is 117554930  speedup is 1.67
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1039) [sender=3.0.6]
+Nodes:        tscc-gpu-9-5

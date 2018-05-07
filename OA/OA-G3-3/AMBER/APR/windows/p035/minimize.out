@@ -1,0 +1,432 @@
+
+          -------------------------------------------------------
+          Amber 18 PMEMD                              2018
+          -------------------------------------------------------
+
+| PMEMD implementation of SANDER, Release 18
+
+| Run on 05/02/2018 at 10:46:47
+
+|   Executable path: pmemd.cuda
+| Working directory: /oasis/tscc/scratch/davids4/SAMPLing-cut9/11499274.tscc-mgr.local
+|          Hostname: tscc-gpu-5-10.sdsc.edu
+
+  [-O]verwriting output
+
+File Assignments:
+|   MDIN: minimize.in                                                           
+|  MDOUT: minimize.out                                                          
+| INPCRD: solvate.rst7                                                          
+|   PARM: solvate.prmtop                                                        
+| RESTRT: minimize.rst7                                                         
+|   REFC: solvate.rst7                                                          
+|  MDVEL: mdvel                                                                 
+|   MDEN: mden                                                                  
+|  MDCRD: mdcrd                                                                 
+| MDINFO: minimize.mdinfo                                                       
+|  MDFRC: mdfrc                                                                 
+
+
+ Here is the input file:
+
+PBC Minimization                                                               
+ &cntrl                                                                        
+  imin =          1,                                                           
+  ntx =           1,                                                           
+  irest =         0,                                                           
+  maxcyc =        500,                                                         
+  ncyc =          400,                                                         
+  dt =            0.0,                                                         
+  nstlim =        0,                                                           
+  ntpr =          100,                                                         
+  ntwe =          0,                                                           
+  ntwr =          5000,                                                        
+  ntwx =          0,                                                           
+  ntxo =          1,                                                           
+  ioutfm =        1,                                                           
+  ntf =           1,                                                           
+  ntc =           1,                                                           
+  cut =           9.0,                                                         
+  igb =           0,                                                           
+  tempi =         298.15,                                                      
+  temp0 =         298.15,                                                      
+  ntt =           0,                                                           
+  gamma_ln =      0.0,                                                         
+  ig =            0,                                                           
+  ntp =           0,                                                           
+  barostat =      0,                                                           
+  ntr =           1,                                                           
+  restraint_wt =  50.0,                                                        
+  restraintmask = '@DUM',                                                      
+  nmropt =        1,                                                           
+  pencut =        -1,                                                          
+ /                                                                             
+ &wt type = 'END', /                                                           
+DISANG = disang.rest                                                           
+LISTOUT = POUT                                                                 
+                                                                               
+
+
+| irandom = 1, using AMBER's internal random number generator (default).
+ 
+|--------------------- INFORMATION ----------------------
+| GPU (CUDA) Version of PMEMD in use: NVIDIA GPU IN USE.
+|                    Version 18.0.0
+| 
+|                      03/25/2018
+| 
+| Implementation by:
+|                    Ross C. Walker     (SDSC)
+|                    Scott Le Grand     (nVIDIA)
+| 
+| Version 18 performance extensions by:
+|                    David Cerutti     (Rutgers)
+| 
+| Precision model in use:
+|      [SPFP] - Single Precision Forces, 64-bit Fixed Point
+|               Accumulation. (Default)
+| 
+|--------------------------------------------------------
+ 
+|----------------- CITATION INFORMATION -----------------
+|
+|    When publishing work that utilized the CUDA version
+|    of AMBER, please cite the following in addition to
+|    the regular AMBER citations:
+|
+|  - Romelia Salomon-Ferrer; Andreas W. Goetz; Duncan
+|    Poole; Scott Le Grand; Ross C. Walker "Routine
+|    microsecond molecular dynamics simulations with
+|    AMBER - Part II: Particle Mesh Ewald", J. Chem.
+|    Theory Comput., 2013, 9 (9), pp3878-3888,
+|    DOI: 10.1021/ct400314y.
+|
+|  - Andreas W. Goetz; Mark J. Williamson; Dong Xu;
+|    Duncan Poole; Scott Le Grand; Ross C. Walker
+|    "Routine microsecond molecular dynamics simulations
+|    with AMBER - Part I: Generalized Born", J. Chem.
+|    Theory Comput., 2012, 8 (5), pp1542-1555.
+|
+|  - Scott Le Grand; Andreas W. Goetz; Ross C. Walker
+|    "SPFP: Speed without compromise - a mixed precision
+|    model for GPU accelerated molecular dynamics
+|    simulations.", Comp. Phys. Comm., 2013, 184
+|    pp374-380, DOI: 10.1016/j.cpc.2012.09.022
+|
+|--------------------------------------------------------
+ 
+|------------------- GPU DEVICE INFO --------------------
+|
+|            CUDA_VISIBLE_DEVICES: 3
+|   CUDA Capable Devices Detected:      1
+|           CUDA Device ID in use:      0
+|                CUDA Device Name: GeForce GTX TITAN X
+|     CUDA Device Global Mem Size:  12207 MB
+| CUDA Device Num Multiprocessors:     24
+|           CUDA Device Core Freq:   1.08 GHz
+|
+|--------------------------------------------------------
+ 
+ 
+| Conditional Compilation Defines Used:
+| PUBFFT
+| BINTRAJ
+| CUDA
+| EMIL
+
+| Largest sphere to fit in unit cell has radius =    21.056
+
+| New format PARM file being parsed.
+| Version =    1.000 Date = 04/23/18 Time = 19:57:43
+
+| Note: 1-4 EEL scale factors are being read from the topology file.
+
+| Note: 1-4 VDW scale factors are being read from the topology file.
+| Duplicated    0 dihedrals
+
+| Duplicated    0 dihedrals
+
+--------------------------------------------------------------------------------
+   1.  RESOURCE   USE: 
+--------------------------------------------------------------------------------
+
+ getting new box info from bottom of inpcrd
+ NATOM  =    9221 NTYPES =      11 NBONH =    9065 MBONA  =     155
+ NTHETH =     148 MTHETA =     231 NPHIH =     343 MPHIA  =     362
+ NHPARM =       0 NPARM  =       0 NNB   =   13205 NRES   =    3022
+ NBONA  =     155 NTHETA =     231 NPHIA =     362 NUMBND =      16
+ NUMANG =      28 NPTRA  =      15 NATYP =      14 NPHB   =       0
+ IFBOX  =       1 NMXRS  =     184 IFCAP =       0 NEXTRA =       0
+ NCOPY  =       0
+
+| Coordinate Index Table dimensions:     8    8   14
+| Direct force subcell size =     5.2641    5.3276    5.0585
+
+     BOX TYPE: RECTILINEAR
+
+--------------------------------------------------------------------------------
+   2.  CONTROL  DATA  FOR  THE  RUN
+--------------------------------------------------------------------------------
+
+default_name                                                                    
+
+General flags:
+     imin    =       1, nmropt  =       1
+
+Nature and format of input:
+     ntx     =       1, irest   =       0, ntrx    =       1
+
+Nature and format of output:
+     ntxo    =       1, ntpr    =     100, ntrx    =       1, ntwr    =       1
+     iwrap   =       0, ntwx    =       0, ntwv    =       0, ntwe    =       0
+     ioutfm  =       1, ntwprt  =       0, idecomp =       0, rbornstat=      0
+
+Potential function:
+     ntf     =       1, ntb     =       1, igb     =       0, nsnb    =      25
+     ipol    =       0, gbsa    =       0, iesp    =       0
+     dielc   =   1.00000, cut     =   9.00000, intdiel =   1.00000
+
+Frozen or restrained atoms:
+     ibelly  =       0, ntr     =       1
+     restraint_wt =  50.00000
+
+Energy minimization:
+     maxcyc  =     500, ncyc    =     400, ntmin   =       1
+     dx0     =   0.01000, drms    =   0.00010
+
+NMR refinement options:
+     iscale  =       0, noeskp  =       1, ipnlty  =       1, mxsub   =       1
+     scalm   = 100.00000, pencut  =  -1.00000, tausw   =   0.10000
+
+| Intermolecular bonds treatment:
+|     no_intermolecular_bonds =       1
+
+| Energy averages sample interval:
+|     ene_avg_sampling =       1
+
+Ewald parameters:
+     verbose =       0, ew_type =       0, nbflag  =       1, use_pme =       1
+     vdwmeth =       1, eedmeth =       1, netfrc  =       0
+     Box X =   42.113   Box Y =   42.620   Box Z =   70.818
+     Alpha =   90.000   Beta  =   90.000   Gamma =   90.000
+     NFFT1 =   48       NFFT2 =   48       NFFT3 =   72
+     Cutoff=    9.000   Tol   =0.100E-04
+     Ewald Coefficient =  0.30768
+     Interpolation order =    4
+
+    LOADING THE CONSTRAINED ATOMS AS GROUPS
+
+
+   5.  REFERENCE ATOM COORDINATES
+
+  default_name                                                                    
+     Mask @DUM; matches     3 atoms
+
+--------------------------------------------------------------------------------
+   3.  ATOMIC COORDINATES AND VELOCITIES
+--------------------------------------------------------------------------------
+
+default_name                                                                    
+ begin time read from input coords =     0.000 ps
+
+
+
+           Begin reading energy term weight changes/NMR restraints
+ WEIGHT CHANGES:
+                         ** No weight changes given **
+
+ RESTRAINTS:
+ Requested file redirections:
+  DISANG    = disang.rest
+  LISTOUT   = POUT
+ Restraints will be read from file: disang.rest
+Here are comments from the DISANG input file:
+
+                       Number of restraints read =     9
+
+                  Done reading weight changes/NMR restraints
+
+
+ 
+ Number of triangulated 3-point waters found:     3000
+
+     Sum of charges from parm topology file =   0.00000002
+     Forcing neutrality...
+
+| Dynamic Memory, Types Used:
+| Reals              372822
+| Integers           259518
+
+| Nonbonded Pairs Initial Allocation:     2102388
+
+| GPU memory information (estimate):
+| KB of GPU memory in use:         0
+| KB of CPU memory in use:         0
+
+--------------------------------------------------------------------------------
+   4.  RESULTS
+--------------------------------------------------------------------------------
+
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+      1      -2.4596E+04     1.3000E+01     1.1988E+02     Cl-       220
+
+ BOND    =       49.6467  ANGLE   =      110.4890  DIHED      =      142.7763
+ VDWAALS =     2928.6938  EEL     =   -27969.5100  HBOND      =        0.0000
+ 1-4 VDW =       70.1873  1-4 EEL =       63.8198  RESTRAINT  =        8.0469
+ EAMBER  =   -24603.8971
+ NMR restraints: Bond =    0.000   Angle =     8.047   Torsion =     0.000
+===============================================================================
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    100      -3.2293E+04     2.5006E+00     2.3372E+01     C92       124
+
+ BOND    =     1688.2149  ANGLE   =       40.2892  DIHED      =      104.9698
+ VDWAALS =     3287.7784  EEL     =   -37552.3792  HBOND      =        0.0000
+ 1-4 VDW =       68.0230  1-4 EEL =       65.1520  RESTRAINT  =        5.0836
+ EAMBER  =   -32297.9519
+ NMR restraints: Bond =    0.005   Angle =     5.057   Torsion =     0.013
+===============================================================================
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    200      -3.3591E+04     1.9585E+00     6.2709E+01     C82       102
+
+ BOND    =     2011.8729  ANGLE   =       41.4143  DIHED      =      103.7894
+ VDWAALS =     3905.0566  EEL     =   -39787.5398  HBOND      =        0.0000
+ 1-4 VDW =       67.5779  1-4 EEL =       64.1274  RESTRAINT  =        3.0539
+ EAMBER  =   -33593.7012
+ NMR restraints: Bond =    0.021   Angle =     3.006   Torsion =     0.017
+===============================================================================
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    300      -3.4330E+04     1.6799E+00     8.4812E+01     C87       107
+
+ BOND    =     2128.8279  ANGLE   =       42.7525  DIHED      =      104.5342
+ VDWAALS =     4407.7397  EEL     =   -41146.1237  HBOND      =        0.0000
+ 1-4 VDW =       67.1282  1-4 EEL =       63.4777  RESTRAINT  =        1.8364
+ EAMBER  =   -34331.6634
+ NMR restraints: Bond =    0.040   Angle =     1.763   Torsion =     0.020
+===============================================================================
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    400      -3.4860E+04     1.5234E+00     9.4261E+01     C87       107
+
+ BOND    =     2221.1261  ANGLE   =       44.8915  DIHED      =      105.9298
+ VDWAALS =     4818.7177  EEL     =   -42181.2229  HBOND      =        0.0000
+ 1-4 VDW =       66.5323  1-4 EEL =       63.0512  RESTRAINT  =        1.1190
+ EAMBER  =   -34860.9744
+ NMR restraints: Bond =    0.058   Angle =     1.019   Torsion =     0.024
+===============================================================================
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    500      -3.6391E+04     1.3934E+00     5.1514E+01     C35        43
+
+ BOND    =     2525.9567  ANGLE   =       57.6373  DIHED      =      108.9663
+ VDWAALS =     6253.4599  EEL     =   -45464.8450  HBOND      =        0.0000
+ 1-4 VDW =       67.3367  1-4 EEL =       59.3452  RESTRAINT  =        0.9198
+ EAMBER  =   -36392.1430
+ NMR restraints: Bond =    0.186   Angle =     0.662   Torsion =     0.041
+===============================================================================
+
+
+  Maximum number of minimization cycles reached.
+
+
+                    FINAL RESULTS
+
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+    500      -3.6391E+04     1.3934E+00     5.1514E+01     C35        43
+
+ BOND    =     2525.9567  ANGLE   =       57.6373  DIHED      =      108.9663
+ VDWAALS =     6253.4599  EEL     =   -45464.8450  HBOND      =        0.0000
+ 1-4 VDW =       67.3367  1-4 EEL =       59.3452  RESTRAINT  =        0.9198
+ EAMBER  =   -36392.1430
+ NMR restraints: Bond =    0.186   Angle =     0.662   Torsion =     0.041
+===============================================================================
+ ------------------------------------------------------------------------------
+
+
+ Final Restraint Analysis for coords: minimize.rst7                           
+
+
+ Restraints, deviations, and energy contributions:    pencut =   -1.00
+
+ ------------------------------------------------------------------------------
+     First atom        Last atom    curr. value target deviation  penalty
+ ------------------------------------------------------------------------------
+  DUM  DM1    3 --  C26  HST    1:    8.475    8.668    0.193    0.185 d    0: 0
+  DUM  DM2    4 --  C26  HST    1:  152.742  153.558    0.816    0.020 a
+  DUM  DM2    4 --  DUM  DM1    3: -179.143 -178.916    0.227    0.002 t
+  DUM  DM1    3 --  C18  HST    1:   67.774   66.962    0.812    0.020 a
+  DUM  DM1    3 --  C26  HST    1:  130.165  129.135    1.029    0.032 t
+  C26  HST    1 --  C18  HST    1:   72.976   73.475    0.499    0.008 t
+  DUM  DM1    3 --  C1   GST    2:   21.443   21.455    0.013    0.001 d    0: 0
+  DUM  DM2    4 --  C1   GST    2:  178.465  180.000    1.535    0.072 a
+  DUM  DM1    3 --  C3   GST    2:  175.750  180.000    4.250    0.550 a
+                                       Total distance penalty:      0.186
+                                       Total angle    penalty:      0.662
+                                       Total torsion  penalty:      0.041
+ ------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+   5.  TIMINGS
+--------------------------------------------------------------------------------
+
+|  NonSetup CPU Time in Major Routines:
+|
+|     Routine           Sec        %
+|     ------------------------------
+|     Nonbond           0.29   51.25
+|     Bond              0.00    0.00
+|     Angle             0.00    0.00
+|     Dihedral          0.00    0.00
+|     Shake             0.00    0.00
+|     Other             0.27   48.75
+|     ------------------------------
+|     Total             0.56
+
+|  PME Nonbond Pairlist CPU Time:
+|
+|     Routine              Sec        %
+|     ---------------------------------
+|     Set Up Cit           0.00    0.00
+|     Build List           0.00    0.00
+|     ---------------------------------
+|     Total                0.00    0.00
+
+|  PME Direct Force CPU Time:
+|
+|     Routine              Sec        %
+|     ---------------------------------
+|     NonBonded Calc       0.00    0.00
+|     Exclude Masked       0.00    0.00
+|     Other                0.00    0.18
+|     ---------------------------------
+|     Total                0.00    0.18
+
+|  PME Reciprocal Force CPU Time:
+|
+|     Routine              Sec        %
+|     ---------------------------------
+|     1D bspline           0.00    0.00
+|     Grid Charges         0.00    0.00
+|     Scalar Sum           0.00    0.00
+|     Gradient Sum         0.00    0.00
+|     FFT                  0.00    0.00
+|     ---------------------------------
+|     Total                0.00    0.00
+
+|  Setup CPU time:            1.37 seconds
+|  NonSetup CPU time:         0.56 seconds
+|  Total CPU time:            1.93 seconds     0.00 hours
+
+|  Setup wall time:           1    seconds
+|  NonSetup wall time:        1    seconds
+|  Total wall time:           2    seconds     0.00 hours

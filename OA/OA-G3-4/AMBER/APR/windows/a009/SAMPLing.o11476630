@@ -1,0 +1,25 @@
+sending incremental file list
+./
+complex_aligned.pdb
+complex_dummy.pdb
+disang.rest
+dm1.mol2
+dm2.mol2
+dm3.mol2
+dummy.frcmod
+gst.frcmod
+gst.mol2
+hg.pdb
+hst.frcmod
+hst.mol2
+leap.log
+simulate.py
+solvate.pdb
+solvate.prmtop
+solvate.rst7
+solvate.tleap.in
+tscc-driver.sh
+
+sent 2638289 bytes  received 376 bytes  5277330.00 bytes/sec
+total size is 2636759  speedup is 1.00
+Nodes:        tscc-gpu-5-10

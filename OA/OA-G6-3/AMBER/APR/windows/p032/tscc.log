@@ -1,0 +1,331 @@
+2018-04-30 07:52:26 PM Started logging...
+2018-04-30 07:52:26 PM 2018-04-27_16:08:13_-0700-3c20478-0.0.3
+2018-04-30 07:52:26 PM Writing minimize.in
+2018-04-30 07:52:26 PM Running Minimization at ./
+2018-04-30 07:52:26 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c solvate.rst7 -i minimize.in -o minimize.out -r minimize.rst7 -inf minimize.mdinfo
+2018-04-30 07:52:32 PM Minimization completed...
+2018-04-30 07:52:32 PM Writing equil.000.in
+2018-04-30 07:52:32 PM Running MD at ./
+2018-04-30 07:52:32 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c minimize.rst7 -i equil.000.in -o equil.000.out -r equil.000.rst7 -x equil.000.nc -inf equil.000.mdinfo -e equil.000.mden
+2018-04-30 07:52:42 PM STDOUT/STDERR received from AMBER execution
+2018-04-30 07:52:42 PM b'ERROR: Calculation halted.  Periodic box dimensions have changed too much from their initial values.'
+2018-04-30 07:52:42 PM b'  Your system density has likely changed by a large amount, probably from'
+2018-04-30 07:52:42 PM b'  starting the simulation from a structure a long way from equilibrium.'
+2018-04-30 07:52:42 PM b''
+2018-04-30 07:52:42 PM b'  [Although this error can also occur if the simulation has blown up for some reason]'
+2018-04-30 07:52:42 PM b''
+2018-04-30 07:52:42 PM b'  The GPU code does not automatically reorganize grid cells and thus you'
+2018-04-30 07:52:42 PM b'  will need to restart the calculation from the previous restart file.'
+2018-04-30 07:52:42 PM b'  This will generate new grid cells and allow the calculation to continue.'
+2018-04-30 07:52:42 PM b'  It may be necessary to repeat this restarting multiple times if your system'
+2018-04-30 07:52:42 PM b'  is a long way from an equilibrated density.'
+2018-04-30 07:52:42 PM b''
+2018-04-30 07:52:42 PM b'  Alternatively you can run with the CPU code until the density has converged'
+2018-04-30 07:52:42 PM b'  and then switch back to the GPU code.'
+2018-04-30 07:52:42 PM b''
+2018-04-30 07:52:42 PM Simulation did not complete when executing the following ....
+2018-04-30 07:52:42 PM pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c minimize.rst7 -i equil.000.in -o equil.000.out -r equil.000.rst7 -x equil.000.nc -inf equil.000.mdinfo -e equil.000.mden
+2018-04-30 07:52:42 PM Writing equil.001.in
+2018-04-30 07:52:42 PM Running MD at ./
+2018-04-30 07:52:42 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.001.inpcrd -c equil.000.rst7 -i equil.001.in -o equil.001.out -r equil.001.rst7 -x equil.001.nc -inf equil.001.mdinfo -e equil.001.mden
+2018-04-30 07:52:45 PM Simulation did not complete when executing the following ....
+2018-04-30 07:52:45 PM pmemd.cuda -O -p solvate.prmtop -ref equil.001.inpcrd -c equil.000.rst7 -i equil.001.in -o equil.001.out -r equil.001.rst7 -x equil.001.nc -inf equil.001.mdinfo -e equil.001.mden
+2018-04-30 07:52:45 PM Writing equil.002.in
+2018-04-30 07:52:45 PM Running MD at ./
+2018-04-30 07:52:45 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.002.inpcrd -c equil.001.rst7 -i equil.002.in -o equil.002.out -r equil.002.rst7 -x equil.002.nc -inf equil.002.mdinfo -e equil.002.mden
+2018-04-30 07:52:49 PM Simulation did not complete when executing the following ....
+2018-04-30 07:52:49 PM pmemd.cuda -O -p solvate.prmtop -ref equil.002.inpcrd -c equil.001.rst7 -i equil.002.in -o equil.002.out -r equil.002.rst7 -x equil.002.nc -inf equil.002.mdinfo -e equil.002.mden
+2018-04-30 07:52:49 PM Writing equil.003.in
+2018-04-30 07:52:49 PM Running MD at ./
+2018-04-30 07:52:49 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.003.inpcrd -c equil.002.rst7 -i equil.003.in -o equil.003.out -r equil.003.rst7 -x equil.003.nc -inf equil.003.mdinfo -e equil.003.mden
+2018-04-30 07:52:52 PM Simulation did not complete when executing the following ....
+2018-04-30 07:52:52 PM pmemd.cuda -O -p solvate.prmtop -ref equil.003.inpcrd -c equil.002.rst7 -i equil.003.in -o equil.003.out -r equil.003.rst7 -x equil.003.nc -inf equil.003.mdinfo -e equil.003.mden
+2018-04-30 07:52:52 PM Writing equil.004.in
+2018-04-30 07:52:52 PM Running MD at ./
+2018-04-30 07:52:52 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.004.inpcrd -c equil.003.rst7 -i equil.004.in -o equil.004.out -r equil.004.rst7 -x equil.004.nc -inf equil.004.mdinfo -e equil.004.mden
+2018-04-30 07:52:56 PM Simulation did not complete when executing the following ....
+2018-04-30 07:52:56 PM pmemd.cuda -O -p solvate.prmtop -ref equil.004.inpcrd -c equil.003.rst7 -i equil.004.in -o equil.004.out -r equil.004.rst7 -x equil.004.nc -inf equil.004.mdinfo -e equil.004.mden
+2018-04-30 07:52:56 PM Writing equil.005.in
+2018-04-30 07:52:56 PM Running MD at ./
+2018-04-30 07:52:56 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.005.inpcrd -c equil.004.rst7 -i equil.005.in -o equil.005.out -r equil.005.rst7 -x equil.005.nc -inf equil.005.mdinfo -e equil.005.mden
+2018-04-30 07:52:59 PM Simulation did not complete when executing the following ....
+2018-04-30 07:52:59 PM pmemd.cuda -O -p solvate.prmtop -ref equil.005.inpcrd -c equil.004.rst7 -i equil.005.in -o equil.005.out -r equil.005.rst7 -x equil.005.nc -inf equil.005.mdinfo -e equil.005.mden
+2018-04-30 07:52:59 PM Writing equil.006.in
+2018-04-30 07:52:59 PM Running MD at ./
+2018-04-30 07:52:59 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.006.inpcrd -c equil.005.rst7 -i equil.006.in -o equil.006.out -r equil.006.rst7 -x equil.006.nc -inf equil.006.mdinfo -e equil.006.mden
+2018-04-30 07:53:02 PM Simulation did not complete when executing the following ....
+2018-04-30 07:53:02 PM pmemd.cuda -O -p solvate.prmtop -ref equil.006.inpcrd -c equil.005.rst7 -i equil.006.in -o equil.006.out -r equil.006.rst7 -x equil.006.nc -inf equil.006.mdinfo -e equil.006.mden
+2018-04-30 07:53:02 PM Writing equil.007.in
+2018-04-30 07:53:02 PM Running MD at ./
+2018-04-30 07:53:02 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.007.inpcrd -c equil.006.rst7 -i equil.007.in -o equil.007.out -r equil.007.rst7 -x equil.007.nc -inf equil.007.mdinfo -e equil.007.mden
+2018-04-30 07:53:07 PM Simulation did not complete when executing the following ....
+2018-04-30 07:53:07 PM pmemd.cuda -O -p solvate.prmtop -ref equil.007.inpcrd -c equil.006.rst7 -i equil.007.in -o equil.007.out -r equil.007.rst7 -x equil.007.nc -inf equil.007.mdinfo -e equil.007.mden
+2018-04-30 07:53:07 PM Writing equil.008.in
+2018-04-30 07:53:07 PM Running MD at ./
+2018-04-30 07:53:07 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.008.inpcrd -c equil.007.rst7 -i equil.008.in -o equil.008.out -r equil.008.rst7 -x equil.008.nc -inf equil.008.mdinfo -e equil.008.mden
+2018-04-30 07:53:09 PM Simulation did not complete when executing the following ....
+2018-04-30 07:53:09 PM pmemd.cuda -O -p solvate.prmtop -ref equil.008.inpcrd -c equil.007.rst7 -i equil.008.in -o equil.008.out -r equil.008.rst7 -x equil.008.nc -inf equil.008.mdinfo -e equil.008.mden
+2018-04-30 07:53:09 PM Writing equil.009.in
+2018-04-30 07:53:10 PM Running MD at ./
+2018-04-30 07:53:10 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.009.inpcrd -c equil.008.rst7 -i equil.009.in -o equil.009.out -r equil.009.rst7 -x equil.009.nc -inf equil.009.mdinfo -e equil.009.mden
+2018-04-30 07:53:12 PM Simulation did not complete when executing the following ....
+2018-04-30 07:53:12 PM pmemd.cuda -O -p solvate.prmtop -ref equil.009.inpcrd -c equil.008.rst7 -i equil.009.in -o equil.009.out -r equil.009.rst7 -x equil.009.nc -inf equil.009.mdinfo -e equil.009.mden
+2018-04-30 07:53:12 PM Writing prod.000.in
+2018-04-30 07:53:12 PM Running MD at ./
+2018-04-30 07:53:12 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c equil.rst7 -i prod.000.in -o prod.000.out -r prod.000.rst7 -x prod.000.nc -inf prod.000.mdinfo -e prod.000.mden
+2018-04-30 07:53:18 PM Simulation did not complete when executing the following ....
+2018-04-30 07:53:18 PM pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c equil.rst7 -i prod.000.in -o prod.000.out -r prod.000.rst7 -x prod.000.nc -inf prod.000.mdinfo -e prod.000.mden
+2018-04-30 10:42:01 PM Started logging...
+2018-04-30 10:42:01 PM 2018-04-30_14:45:29_-0700-dff30ec-0.0.3
+2018-04-30 10:42:01 PM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-04-30 10:42:01 PM Writing equil.000.in
+2018-04-30 10:42:01 PM Running MD at ./
+2018-04-30 10:42:01 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c minimize.rst7 -i equil.000.in -o equil.000.out -r equil.000.rst7 -x equil.000.nc -inf equil.000.mdinfo -e equil.000.mden
+2018-04-30 10:42:10 PM STDOUT/STDERR received from AMBER execution
+2018-04-30 10:42:10 PM b'ERROR: Calculation halted.  Periodic box dimensions have changed too much from their initial values.'
+2018-04-30 10:42:10 PM b'  Your system density has likely changed by a large amount, probably from'
+2018-04-30 10:42:10 PM b'  starting the simulation from a structure a long way from equilibrium.'
+2018-04-30 10:42:10 PM b''
+2018-04-30 10:42:10 PM b'  [Although this error can also occur if the simulation has blown up for some reason]'
+2018-04-30 10:42:10 PM b''
+2018-04-30 10:42:10 PM b'  The GPU code does not automatically reorganize grid cells and thus you'
+2018-04-30 10:42:10 PM b'  will need to restart the calculation from the previous restart file.'
+2018-04-30 10:42:10 PM b'  This will generate new grid cells and allow the calculation to continue.'
+2018-04-30 10:42:10 PM b'  It may be necessary to repeat this restarting multiple times if your system'
+2018-04-30 10:42:10 PM b'  is a long way from an equilibrated density.'
+2018-04-30 10:42:10 PM b''
+2018-04-30 10:42:10 PM b'  Alternatively you can run with the CPU code until the density has converged'
+2018-04-30 10:42:10 PM b'  and then switch back to the GPU code.'
+2018-04-30 10:42:10 PM b''
+2018-04-30 10:42:10 PM Simulation did not complete when executing the following ....
+2018-04-30 10:42:10 PM pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c minimize.rst7 -i equil.000.in -o equil.000.out -r equil.000.rst7 -x equil.000.nc -inf equil.000.mdinfo -e equil.000.mden
+2018-04-30 10:42:10 PM Writing equil.001.in
+2018-04-30 10:42:10 PM Running MD at ./
+2018-04-30 10:42:10 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.001.inpcrd -c equil.000.rst7 -i equil.001.in -o equil.001.out -r equil.001.rst7 -x equil.001.nc -inf equil.001.mdinfo -e equil.001.mden
+2018-04-30 10:42:11 PM Simulation did not complete when executing the following ....
+2018-04-30 10:42:11 PM pmemd.cuda -O -p solvate.prmtop -ref equil.001.inpcrd -c equil.000.rst7 -i equil.001.in -o equil.001.out -r equil.001.rst7 -x equil.001.nc -inf equil.001.mdinfo -e equil.001.mden
+2018-04-30 10:42:11 PM Writing equil.002.in
+2018-04-30 10:42:11 PM Running MD at ./
+2018-04-30 10:42:11 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.002.inpcrd -c equil.001.rst7 -i equil.002.in -o equil.002.out -r equil.002.rst7 -x equil.002.nc -inf equil.002.mdinfo -e equil.002.mden
+2018-04-30 10:42:11 PM Simulation did not complete when executing the following ....
+2018-04-30 10:42:11 PM pmemd.cuda -O -p solvate.prmtop -ref equil.002.inpcrd -c equil.001.rst7 -i equil.002.in -o equil.002.out -r equil.002.rst7 -x equil.002.nc -inf equil.002.mdinfo -e equil.002.mden
+2018-04-30 10:42:11 PM Writing equil.003.in
+2018-04-30 10:42:11 PM Running MD at ./
+2018-04-30 10:42:11 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.003.inpcrd -c equil.002.rst7 -i equil.003.in -o equil.003.out -r equil.003.rst7 -x equil.003.nc -inf equil.003.mdinfo -e equil.003.mden
+2018-04-30 10:42:11 PM Simulation did not complete when executing the following ....
+2018-04-30 10:42:11 PM pmemd.cuda -O -p solvate.prmtop -ref equil.003.inpcrd -c equil.002.rst7 -i equil.003.in -o equil.003.out -r equil.003.rst7 -x equil.003.nc -inf equil.003.mdinfo -e equil.003.mden
+2018-04-30 10:42:11 PM Writing equil.004.in
+2018-04-30 10:42:11 PM Running MD at ./
+2018-04-30 10:42:11 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.004.inpcrd -c equil.003.rst7 -i equil.004.in -o equil.004.out -r equil.004.rst7 -x equil.004.nc -inf equil.004.mdinfo -e equil.004.mden
+2018-04-30 10:42:12 PM Simulation did not complete when executing the following ....
+2018-04-30 10:42:12 PM pmemd.cuda -O -p solvate.prmtop -ref equil.004.inpcrd -c equil.003.rst7 -i equil.004.in -o equil.004.out -r equil.004.rst7 -x equil.004.nc -inf equil.004.mdinfo -e equil.004.mden
+2018-04-30 10:42:12 PM Writing equil.005.in
+2018-04-30 10:42:12 PM Running MD at ./
+2018-04-30 10:42:12 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.005.inpcrd -c equil.004.rst7 -i equil.005.in -o equil.005.out -r equil.005.rst7 -x equil.005.nc -inf equil.005.mdinfo -e equil.005.mden
+2018-04-30 10:42:12 PM Simulation did not complete when executing the following ....
+2018-04-30 10:42:12 PM pmemd.cuda -O -p solvate.prmtop -ref equil.005.inpcrd -c equil.004.rst7 -i equil.005.in -o equil.005.out -r equil.005.rst7 -x equil.005.nc -inf equil.005.mdinfo -e equil.005.mden
+2018-04-30 10:42:12 PM Writing equil.006.in
+2018-04-30 10:42:12 PM Running MD at ./
+2018-04-30 10:42:12 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.006.inpcrd -c equil.005.rst7 -i equil.006.in -o equil.006.out -r equil.006.rst7 -x equil.006.nc -inf equil.006.mdinfo -e equil.006.mden
+2018-04-30 10:42:13 PM Simulation did not complete when executing the following ....
+2018-04-30 10:42:13 PM pmemd.cuda -O -p solvate.prmtop -ref equil.006.inpcrd -c equil.005.rst7 -i equil.006.in -o equil.006.out -r equil.006.rst7 -x equil.006.nc -inf equil.006.mdinfo -e equil.006.mden
+2018-04-30 10:42:13 PM Writing equil.007.in
+2018-04-30 10:42:13 PM Running MD at ./
+2018-04-30 10:42:13 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.007.inpcrd -c equil.006.rst7 -i equil.007.in -o equil.007.out -r equil.007.rst7 -x equil.007.nc -inf equil.007.mdinfo -e equil.007.mden
+2018-04-30 10:42:13 PM Simulation did not complete when executing the following ....
+2018-04-30 10:42:13 PM pmemd.cuda -O -p solvate.prmtop -ref equil.007.inpcrd -c equil.006.rst7 -i equil.007.in -o equil.007.out -r equil.007.rst7 -x equil.007.nc -inf equil.007.mdinfo -e equil.007.mden
+2018-04-30 10:42:13 PM Writing equil.008.in
+2018-04-30 10:42:13 PM Running MD at ./
+2018-04-30 10:42:13 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.008.inpcrd -c equil.007.rst7 -i equil.008.in -o equil.008.out -r equil.008.rst7 -x equil.008.nc -inf equil.008.mdinfo -e equil.008.mden
+2018-04-30 10:42:14 PM Simulation did not complete when executing the following ....
+2018-04-30 10:42:14 PM pmemd.cuda -O -p solvate.prmtop -ref equil.008.inpcrd -c equil.007.rst7 -i equil.008.in -o equil.008.out -r equil.008.rst7 -x equil.008.nc -inf equil.008.mdinfo -e equil.008.mden
+2018-04-30 10:42:14 PM Writing equil.009.in
+2018-04-30 10:42:14 PM Running MD at ./
+2018-04-30 10:42:14 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.009.inpcrd -c equil.008.rst7 -i equil.009.in -o equil.009.out -r equil.009.rst7 -x equil.009.nc -inf equil.009.mdinfo -e equil.009.mden
+2018-04-30 10:42:14 PM Simulation did not complete when executing the following ....
+2018-04-30 10:42:14 PM pmemd.cuda -O -p solvate.prmtop -ref equil.009.inpcrd -c equil.008.rst7 -i equil.009.in -o equil.009.out -r equil.009.rst7 -x equil.009.nc -inf equil.009.mdinfo -e equil.009.mden
+2018-04-30 10:42:14 PM Writing prod.000.in
+2018-04-30 10:42:14 PM Running MD at ./
+2018-04-30 10:42:14 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c equil.rst7 -i prod.000.in -o prod.000.out -r prod.000.rst7 -x prod.000.nc -inf prod.000.mdinfo -e prod.000.mden
+2018-04-30 10:42:15 PM Simulation did not complete when executing the following ....
+2018-04-30 10:42:15 PM pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c equil.rst7 -i prod.000.in -o prod.000.out -r prod.000.rst7 -x prod.000.nc -inf prod.000.mdinfo -e prod.000.mden
+2018-05-01 07:51:26 AM Started logging...
+2018-05-01 07:51:26 AM 2018-04-30_14:45:29_-0700-dff30ec-0.0.3
+2018-05-01 07:51:26 AM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-01 07:51:26 AM Writing equil.000.in
+2018-05-01 07:51:26 AM Running MD at ./
+2018-05-01 07:51:26 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c minimize.rst7 -i equil.000.in -o equil.000.out -r equil.000.rst7 -x equil.000.nc -inf equil.000.mdinfo -e equil.000.mden
+2018-05-01 07:51:37 AM STDOUT/STDERR received from AMBER execution
+2018-05-01 07:51:37 AM b'ERROR: Calculation halted.  Periodic box dimensions have changed too much from their initial values.'
+2018-05-01 07:51:37 AM b'  Your system density has likely changed by a large amount, probably from'
+2018-05-01 07:51:37 AM b'  starting the simulation from a structure a long way from equilibrium.'
+2018-05-01 07:51:37 AM b''
+2018-05-01 07:51:37 AM b'  [Although this error can also occur if the simulation has blown up for some reason]'
+2018-05-01 07:51:37 AM b''
+2018-05-01 07:51:37 AM b'  The GPU code does not automatically reorganize grid cells and thus you'
+2018-05-01 07:51:37 AM b'  will need to restart the calculation from the previous restart file.'
+2018-05-01 07:51:37 AM b'  This will generate new grid cells and allow the calculation to continue.'
+2018-05-01 07:51:37 AM b'  It may be necessary to repeat this restarting multiple times if your system'
+2018-05-01 07:51:37 AM b'  is a long way from an equilibrated density.'
+2018-05-01 07:51:37 AM b''
+2018-05-01 07:51:37 AM b'  Alternatively you can run with the CPU code until the density has converged'
+2018-05-01 07:51:37 AM b'  and then switch back to the GPU code.'
+2018-05-01 07:51:37 AM b''
+2018-05-01 07:51:37 AM Simulation did not complete when executing the following ....
+2018-05-01 07:51:37 AM pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c minimize.rst7 -i equil.000.in -o equil.000.out -r equil.000.rst7 -x equil.000.nc -inf equil.000.mdinfo -e equil.000.mden
+2018-05-01 07:51:37 AM Writing equil.001.in
+2018-05-01 07:51:37 AM Running MD at ./
+2018-05-01 07:51:37 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.001.inpcrd -c equil.000.rst7 -i equil.001.in -o equil.001.out -r equil.001.rst7 -x equil.001.nc -inf equil.001.mdinfo -e equil.001.mden
+2018-05-01 07:51:41 AM Simulation did not complete when executing the following ....
+2018-05-01 07:51:41 AM pmemd.cuda -O -p solvate.prmtop -ref equil.001.inpcrd -c equil.000.rst7 -i equil.001.in -o equil.001.out -r equil.001.rst7 -x equil.001.nc -inf equil.001.mdinfo -e equil.001.mden
+2018-05-01 07:51:41 AM Writing equil.002.in
+2018-05-01 07:51:41 AM Running MD at ./
+2018-05-01 07:51:41 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.002.inpcrd -c equil.001.rst7 -i equil.002.in -o equil.002.out -r equil.002.rst7 -x equil.002.nc -inf equil.002.mdinfo -e equil.002.mden
+2018-05-01 07:51:44 AM Simulation did not complete when executing the following ....
+2018-05-01 07:51:44 AM pmemd.cuda -O -p solvate.prmtop -ref equil.002.inpcrd -c equil.001.rst7 -i equil.002.in -o equil.002.out -r equil.002.rst7 -x equil.002.nc -inf equil.002.mdinfo -e equil.002.mden
+2018-05-01 07:51:44 AM Writing equil.003.in
+2018-05-01 07:51:44 AM Running MD at ./
+2018-05-01 07:51:44 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.003.inpcrd -c equil.002.rst7 -i equil.003.in -o equil.003.out -r equil.003.rst7 -x equil.003.nc -inf equil.003.mdinfo -e equil.003.mden
+2018-05-01 07:51:48 AM Simulation did not complete when executing the following ....
+2018-05-01 07:51:48 AM pmemd.cuda -O -p solvate.prmtop -ref equil.003.inpcrd -c equil.002.rst7 -i equil.003.in -o equil.003.out -r equil.003.rst7 -x equil.003.nc -inf equil.003.mdinfo -e equil.003.mden
+2018-05-01 07:51:48 AM Writing equil.004.in
+2018-05-01 07:51:48 AM Running MD at ./
+2018-05-01 07:51:48 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.004.inpcrd -c equil.003.rst7 -i equil.004.in -o equil.004.out -r equil.004.rst7 -x equil.004.nc -inf equil.004.mdinfo -e equil.004.mden
+2018-05-01 07:51:52 AM Simulation did not complete when executing the following ....
+2018-05-01 07:51:52 AM pmemd.cuda -O -p solvate.prmtop -ref equil.004.inpcrd -c equil.003.rst7 -i equil.004.in -o equil.004.out -r equil.004.rst7 -x equil.004.nc -inf equil.004.mdinfo -e equil.004.mden
+2018-05-01 07:51:52 AM Writing equil.005.in
+2018-05-01 07:51:52 AM Running MD at ./
+2018-05-01 07:51:52 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.005.inpcrd -c equil.004.rst7 -i equil.005.in -o equil.005.out -r equil.005.rst7 -x equil.005.nc -inf equil.005.mdinfo -e equil.005.mden
+2018-05-01 07:51:55 AM Simulation did not complete when executing the following ....
+2018-05-01 07:51:55 AM pmemd.cuda -O -p solvate.prmtop -ref equil.005.inpcrd -c equil.004.rst7 -i equil.005.in -o equil.005.out -r equil.005.rst7 -x equil.005.nc -inf equil.005.mdinfo -e equil.005.mden
+2018-05-01 07:51:55 AM Writing equil.006.in
+2018-05-01 07:51:55 AM Running MD at ./
+2018-05-01 07:51:55 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.006.inpcrd -c equil.005.rst7 -i equil.006.in -o equil.006.out -r equil.006.rst7 -x equil.006.nc -inf equil.006.mdinfo -e equil.006.mden
+2018-05-01 07:51:59 AM Simulation did not complete when executing the following ....
+2018-05-01 07:51:59 AM pmemd.cuda -O -p solvate.prmtop -ref equil.006.inpcrd -c equil.005.rst7 -i equil.006.in -o equil.006.out -r equil.006.rst7 -x equil.006.nc -inf equil.006.mdinfo -e equil.006.mden
+2018-05-01 07:51:59 AM Writing equil.007.in
+2018-05-01 07:51:59 AM Running MD at ./
+2018-05-01 07:51:59 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.007.inpcrd -c equil.006.rst7 -i equil.007.in -o equil.007.out -r equil.007.rst7 -x equil.007.nc -inf equil.007.mdinfo -e equil.007.mden
+2018-05-01 07:52:03 AM Simulation did not complete when executing the following ....
+2018-05-01 07:52:03 AM pmemd.cuda -O -p solvate.prmtop -ref equil.007.inpcrd -c equil.006.rst7 -i equil.007.in -o equil.007.out -r equil.007.rst7 -x equil.007.nc -inf equil.007.mdinfo -e equil.007.mden
+2018-05-01 07:52:03 AM Writing equil.008.in
+2018-05-01 07:52:03 AM Running MD at ./
+2018-05-01 07:52:03 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.008.inpcrd -c equil.007.rst7 -i equil.008.in -o equil.008.out -r equil.008.rst7 -x equil.008.nc -inf equil.008.mdinfo -e equil.008.mden
+2018-05-01 07:52:06 AM Simulation did not complete when executing the following ....
+2018-05-01 07:52:06 AM pmemd.cuda -O -p solvate.prmtop -ref equil.008.inpcrd -c equil.007.rst7 -i equil.008.in -o equil.008.out -r equil.008.rst7 -x equil.008.nc -inf equil.008.mdinfo -e equil.008.mden
+2018-05-01 07:52:06 AM Writing equil.009.in
+2018-05-01 07:52:06 AM Running MD at ./
+2018-05-01 07:52:06 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref equil.009.inpcrd -c equil.008.rst7 -i equil.009.in -o equil.009.out -r equil.009.rst7 -x equil.009.nc -inf equil.009.mdinfo -e equil.009.mden
+2018-05-01 07:52:10 AM Simulation did not complete when executing the following ....
+2018-05-01 07:52:10 AM pmemd.cuda -O -p solvate.prmtop -ref equil.009.inpcrd -c equil.008.rst7 -i equil.009.in -o equil.009.out -r equil.009.rst7 -x equil.009.nc -inf equil.009.mdinfo -e equil.009.mden
+2018-05-01 07:52:10 AM Writing prod.000.in
+2018-05-01 07:52:10 AM Running MD at ./
+2018-05-01 07:52:10 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c equil.rst7 -i prod.000.in -o prod.000.out -r prod.000.rst7 -x prod.000.nc -inf prod.000.mdinfo -e prod.000.mden
+2018-05-01 07:52:13 AM Simulation did not complete when executing the following ....
+2018-05-01 07:52:13 AM pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c equil.rst7 -i prod.000.in -o prod.000.out -r prod.000.rst7 -x prod.000.nc -inf prod.000.mdinfo -e prod.000.mden
+2018-05-01 08:03:47 AM Started logging...
+2018-05-01 08:03:47 AM 2018-04-30_14:45:29_-0700-dff30ec-0.0.3
+2018-05-01 08:03:47 AM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-01 08:03:47 AM Writing equil.000.in
+2018-05-01 08:03:47 AM Running MD at ./
+2018-05-01 08:03:47 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c minimize.rst7 -i equil.000.in -o equil.000.out -r equil.000.rst7 -x equil.000.nc -inf equil.000.mdinfo -e equil.000.mden
+2018-05-01 08:03:56 AM STDOUT/STDERR received from AMBER execution
+2018-05-01 08:03:56 AM b'ERROR: Calculation halted.  Periodic box dimensions have changed too much from their initial values.'
+2018-05-01 08:03:56 AM b'  Your system density has likely changed by a large amount, probably from'
+2018-05-01 08:03:56 AM b'  starting the simulation from a structure a long way from equilibrium.'
+2018-05-01 08:03:56 AM b''
+2018-05-01 08:03:56 AM b'  [Although this error can also occur if the simulation has blown up for some reason]'
+2018-05-01 08:03:56 AM b''
+2018-05-01 08:03:56 AM b'  The GPU code does not automatically reorganize grid cells and thus you'
+2018-05-01 08:03:56 AM b'  will need to restart the calculation from the previous restart file.'
+2018-05-01 08:03:56 AM b'  This will generate new grid cells and allow the calculation to continue.'
+2018-05-01 08:03:56 AM b'  It may be necessary to repeat this restarting multiple times if your system'
+2018-05-01 08:03:56 AM b'  is a long way from an equilibrated density.'
+2018-05-01 08:03:56 AM b''
+2018-05-01 08:03:56 AM b'  Alternatively you can run with the CPU code until the density has converged'
+2018-05-01 08:03:56 AM b'  and then switch back to the GPU code.'
+2018-05-01 08:03:56 AM b''
+2018-05-01 08:03:56 AM Simulation did not complete when executing the following ....
+2018-05-01 08:03:56 AM pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c minimize.rst7 -i equil.000.in -o equil.000.out -r equil.000.rst7 -x equil.000.nc -inf equil.000.mdinfo -e equil.000.mden
+2018-05-01 08:03:56 AM Writing equil.001.in
+2018-05-01 08:03:56 AM Running MD at ./
+2018-05-01 08:03:56 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c equil.000.rst7 -i equil.001.in -o equil.001.out -r equil.001.rst7 -x equil.001.nc -inf equil.001.mdinfo -e equil.001.mden
+2018-05-01 08:09:43 AM MD completed ...
+2018-05-01 08:09:43 AM Writing prod.000.in
+2018-05-01 08:09:43 AM Running MD at ./
+2018-05-01 08:09:43 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c equil.rst7 -i prod.000.in -o prod.000.out -r prod.000.rst7 -x prod.000.nc -inf prod.000.mdinfo -e prod.000.mden
+2018-05-01 08:13:52 AM MD completed ...
+2018-05-01 08:13:52 AM Writing prod.001.in
+2018-05-01 08:13:52 AM Running MD at ./
+2018-05-01 08:13:52 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.000.rst7 -i prod.001.in -o prod.001.out -r prod.001.rst7 -x prod.001.nc -inf prod.001.mdinfo -e prod.001.mden
+2018-05-01 08:18:05 AM MD completed ...
+2018-05-01 08:18:05 AM Writing prod.002.in
+2018-05-01 08:18:05 AM Running MD at ./
+2018-05-01 08:18:05 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.001.rst7 -i prod.002.in -o prod.002.out -r prod.002.rst7 -x prod.002.nc -inf prod.002.mdinfo -e prod.002.mden
+2018-05-01 08:22:13 AM MD completed ...
+2018-05-01 08:22:13 AM Writing prod.003.in
+2018-05-01 08:22:13 AM Running MD at ./
+2018-05-01 08:22:13 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.002.rst7 -i prod.003.in -o prod.003.out -r prod.003.rst7 -x prod.003.nc -inf prod.003.mdinfo -e prod.003.mden
+2018-05-01 08:26:20 AM MD completed ...
+2018-05-01 08:26:20 AM Writing prod.004.in
+2018-05-01 08:26:20 AM Running MD at ./
+2018-05-01 08:26:20 AM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.003.rst7 -i prod.004.in -o prod.004.out -r prod.004.rst7 -x prod.004.nc -inf prod.004.mdinfo -e prod.004.mden
+2018-05-01 08:30:29 AM MD completed ...
+2018-05-02 12:11:53 PM Started logging...
+2018-05-02 12:11:53 PM 2018-04-30_14:45:29_-0700-dff30ec-0.0.3
+2018-05-02 12:11:53 PM Writing minimize.in
+2018-05-02 12:11:53 PM Running Minimization at ./
+2018-05-02 12:11:53 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c solvate.rst7 -i minimize.in -o minimize.out -r minimize.rst7 -inf minimize.mdinfo
+2018-05-02 12:11:56 PM Minimization completed...
+2018-05-02 12:11:56 PM Writing equil.000.in
+2018-05-02 12:11:56 PM Running MD at ./
+2018-05-02 12:11:56 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c minimize.rst7 -i equil.000.in -o equil.000.out -r equil.000.rst7 -x equil.000.nc -inf equil.000.mdinfo -e equil.000.mden
+2018-05-02 12:17:52 PM MD completed ...
+2018-05-02 12:17:52 PM Writing prod.000.in
+2018-05-02 12:17:52 PM Running MD at ./
+2018-05-02 12:17:52 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c equil.rst7 -i prod.000.in -o prod.000.out -r prod.000.rst7 -x prod.000.nc -inf prod.000.mdinfo -e prod.000.mden
+2018-05-02 12:22:20 PM MD completed ...
+2018-05-02 12:22:20 PM Writing prod.001.in
+2018-05-02 12:22:20 PM Running MD at ./
+2018-05-02 12:22:20 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.000.rst7 -i prod.001.in -o prod.001.out -r prod.001.rst7 -x prod.001.nc -inf prod.001.mdinfo -e prod.001.mden
+2018-05-02 12:26:49 PM MD completed ...
+2018-05-02 12:26:49 PM Writing prod.002.in
+2018-05-02 12:26:49 PM Running MD at ./
+2018-05-02 12:26:49 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.001.rst7 -i prod.002.in -o prod.002.out -r prod.002.rst7 -x prod.002.nc -inf prod.002.mdinfo -e prod.002.mden
+2018-05-02 12:31:18 PM MD completed ...
+2018-05-02 12:31:18 PM Writing prod.003.in
+2018-05-02 12:31:18 PM Running MD at ./
+2018-05-02 12:31:18 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.002.rst7 -i prod.003.in -o prod.003.out -r prod.003.rst7 -x prod.003.nc -inf prod.003.mdinfo -e prod.003.mden
+2018-05-02 12:35:48 PM MD completed ...
+2018-05-02 12:35:48 PM Writing prod.004.in
+2018-05-02 12:35:48 PM Running MD at ./
+2018-05-02 12:35:48 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.003.rst7 -i prod.004.in -o prod.004.out -r prod.004.rst7 -x prod.004.nc -inf prod.004.mdinfo -e prod.004.mden
+2018-05-02 12:40:17 PM MD completed ...
+2018-05-05 06:36:29 PM Started logging...
+2018-05-05 06:36:29 PM 2018-04-30_14:45:29_-0700-dff30ec-0.0.3
+2018-05-05 06:36:29 PM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-05 06:36:29 PM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-05 06:36:29 PM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-05 06:36:29 PM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-05 06:36:29 PM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-05 06:36:29 PM Completed output detected ... Skipping. Use: run(overwrite=True) to overwrite
+2018-05-05 06:36:29 PM Writing prod.005.in
+2018-05-05 06:36:29 PM Running MD at ./
+2018-05-05 06:36:29 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.004.rst7 -i prod.005.in -o prod.005.out -r prod.005.rst7 -x prod.005.nc -inf prod.005.mdinfo -e prod.005.mden
+2018-05-05 06:41:03 PM MD completed ...
+2018-05-05 06:41:03 PM Writing prod.006.in
+2018-05-05 06:41:03 PM Running MD at ./
+2018-05-05 06:41:03 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.005.rst7 -i prod.006.in -o prod.006.out -r prod.006.rst7 -x prod.006.nc -inf prod.006.mdinfo -e prod.006.mden
+2018-05-05 06:45:42 PM MD completed ...
+2018-05-05 06:45:42 PM Writing prod.007.in
+2018-05-05 06:45:42 PM Running MD at ./
+2018-05-05 06:45:42 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.006.rst7 -i prod.007.in -o prod.007.out -r prod.007.rst7 -x prod.007.nc -inf prod.007.mdinfo -e prod.007.mden
+2018-05-05 06:50:19 PM MD completed ...
+2018-05-05 06:50:19 PM Writing prod.008.in
+2018-05-05 06:50:19 PM Running MD at ./
+2018-05-05 06:50:19 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.007.rst7 -i prod.008.in -o prod.008.out -r prod.008.rst7 -x prod.008.nc -inf prod.008.mdinfo -e prod.008.mden
+2018-05-05 06:54:54 PM MD completed ...
+2018-05-05 06:54:54 PM Writing prod.009.in
+2018-05-05 06:54:54 PM Running MD at ./
+2018-05-05 06:54:54 PM Exec line: pmemd.cuda -O -p solvate.prmtop -ref solvate.rst7 -c prod.008.rst7 -i prod.009.in -o prod.009.out -r prod.009.rst7 -x prod.009.nc -inf prod.009.mdinfo -e prod.009.mden
+2018-05-05 06:59:29 PM MD completed ...

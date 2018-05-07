@@ -10,15 +10,12 @@ for complx in complexes:
         f.write(f'Complex Seconds\n')
         directories = glob.glob(os.path.join(complx, 'AMBER/APR/windows/') + 'a0*') + \
                     glob.glob(os.path.join(complx, 'AMBER/APR/windows/') + 'p0*')
-        trajectories = [
-            'prod.000.out', 'prod.001.out', 'prod.002.out', 'prod.003.out',
-            'prod.004.out'
-        ]
+        trajectories = ['prod*.out' ]
         # This could also be ``'prod*.out'`, but I have extra sampling in some windows,
         # that I didn't use for the analysis and I want to exclude for the wall-time calculation.
         complx_time = 0
         for directory in directories:
-            files = [os.path.join(directory, i) for i in trajectories]
+            files = glob.glob(os.path.join(directory, trajectories[0]))
             for file in files:
                 command = "grep 'Total wall time:' {}".format(file)
                 time = sp.check_output(command, shell=True)

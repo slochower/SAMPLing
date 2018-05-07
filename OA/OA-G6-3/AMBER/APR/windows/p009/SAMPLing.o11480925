@@ -1,0 +1,94 @@
+sending incremental file list
+./
+SAMPLing.o11478893
+complex_aligned.pdb
+complex_dummy.pdb
+disang.rest
+dm1.mol2
+dm2.mol2
+dm3.mol2
+dummy.frcmod
+equil.000.in
+equil.000.mden
+equil.000.mdinfo
+equil.000.nc
+equil.000.out
+equil.000.rst7
+equil.001.in
+equil.001.out
+equil.002.in
+equil.002.out
+equil.003.in
+equil.003.out
+equil.004.in
+equil.004.out
+equil.005.in
+equil.005.out
+equil.006.in
+equil.006.out
+equil.007.in
+equil.007.out
+equil.008.in
+equil.008.out
+equil.009.in
+equil.009.out
+gst.frcmod
+gst.mol2
+hg.pdb
+hst.frcmod
+hst.mol2
+leap.log
+minimize.in
+minimize.mdinfo
+minimize.out
+minimize.rst7
+prod.000.in
+prod.000.out
+simulate.py
+solvate.pdb
+solvate.prmtop
+solvate.rst7
+solvate.tleap.in
+tscc-driver.sh
+tscc.log
+
+sent 3885269 bytes  received 984 bytes  2590835.33 bytes/sec
+total size is 3881623  speedup is 1.00
+Traceback (most recent call last):
+  File "simulate.py", line 89, in <module>
+    sim.run(fail_ok=False)
+  File "/home/davids4/projects/pAPRika/paprika/amber.py", line 290, in run
+    raise Exception('Exiting due to failed simulation! Check logging info.')
+Exception: Exiting due to failed simulation! Check logging info.
+sending incremental file list
+equil.000.in
+equil.000.mden
+equil.000.mdinfo
+equil.000.nc
+equil.000.out
+equil.000.rst7
+equil.001.in
+equil.001.out
+equil.002.in
+equil.002.out
+equil.003.in
+equil.003.out
+equil.004.in
+equil.004.out
+equil.005.in
+equil.005.out
+equil.006.in
+equil.006.out
+equil.007.in
+equil.007.out
+equil.008.in
+equil.008.out
+equil.009.in
+equil.009.out
+prod.000.in
+prod.000.out
+tscc.log
+
+sent 896603 bytes  received 525 bytes  1794256.00 bytes/sec
+total size is 3889469  speedup is 4.34
+Nodes:        tscc-gpu-8-8

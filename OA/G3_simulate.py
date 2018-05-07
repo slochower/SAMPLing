@@ -71,7 +71,7 @@ while not os.path.isfile('equil.rst7') and iteration < 10:
     sim.ref = 'solvate.rst7'
 
 # Production
-for iteration in range(0, 5):
+for iteration in range(0, 15):
     sim.executable = 'pmemd.cuda'
     sim.path = './'
     sim.topology = 'solvate.prmtop'
