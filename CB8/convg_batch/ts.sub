@@ -1,0 +1,11 @@
+
+#!/bin/bash
+#PBS -S /bin/bash
+#PBS -l walltime=08:00:00,nodes=1:ppn=4 -q home
+#PBS -j oe -r n -m n -M shireham@gmail.com
+#PBS -N TS-conf4_1.00
+
+source /home/henrikse/paprika_install/env.sh
+
+cd $PBS_O_WORKDIR
+python convergence.py 4 1.00

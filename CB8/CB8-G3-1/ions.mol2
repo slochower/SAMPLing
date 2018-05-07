@@ -1,0 +1,36 @@
+@<TRIPOS>MOLECULE
+Cl-
+13 0 13 0 1
+BIOPOLYMER
+USER_CHARGES
+@<TRIPOS>CRYSIN
+   40.6836    40.5233    40.4184    90.0000    90.0000    90.0000  1  1
+@<TRIPOS>ATOM
+       1 Cl-         17.4993    31.2625    13.8972 Cl-           1 Cl-       -1.000000
+       2 Na+          2.9442     9.6182     3.9094 Na+           2 Na+        1.000000
+       3 Na+         14.4907    26.7361    22.8455 Na+           3 Na+        1.000000
+       4 Na+         26.0327     2.2418    27.6228 Na+           4 Na+        1.000000
+       5 Na+         17.4965     6.8332    37.1444 Na+           5 Na+        1.000000
+       6 Na+         39.2560    32.0730    30.4304 Na+           6 Na+        1.000000
+       7 Na+         19.3889    13.1559    10.4007 Na+           7 Na+        1.000000
+       8 Cl-         14.4987    40.4585    23.9496 Cl-           8 Cl-       -1.000000
+       9 Cl-         16.8670     1.7569    35.5897 Cl-           9 Cl-       -1.000000
+      10 Cl-         15.5101     8.0019     2.5100 Cl-          10 Cl-       -1.000000
+      11 Cl-         18.0863    14.5364    38.9976 Cl-          11 Cl-       -1.000000
+      12 Cl-         34.8686    29.8211    14.0255 Cl-          12 Cl-       -1.000000
+      13 Cl-         37.9951    38.0133    12.6858 Cl-          13 Cl-       -1.000000
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+       1 Cl-             1 RESIDUE    0 **** ROOT      0
+       2 Na+             2 RESIDUE    0 **** ROOT      0
+       3 Na+             3 RESIDUE    0 **** ROOT      0
+       4 Na+             4 RESIDUE    0 **** ROOT      0
+       5 Na+             5 RESIDUE    0 **** ROOT      0
+       6 Na+             6 RESIDUE    0 **** ROOT      0
+       7 Na+             7 RESIDUE    0 **** ROOT      0
+       8 Cl-             8 RESIDUE    0 **** ROOT      0
+       9 Cl-             9 RESIDUE    0 **** ROOT      0
+      10 Cl-            10 RESIDUE    0 **** ROOT      0
+      11 Cl-            11 RESIDUE    0 **** ROOT      0
+      12 Cl-            12 RESIDUE    0 **** ROOT      0
+      13 Cl-            13 RESIDUE    0 **** ROOT      0
