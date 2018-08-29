@@ -1,0 +1,6 @@
+parm solvated.prmtop
+loadrestrt solvated.rst7
+strip @DUM
+parmout solvated.nodum.prmtop
+writeCoordinates solvated.nodum.rst7
+go
