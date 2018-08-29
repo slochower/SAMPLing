@@ -1,0 +1,16 @@
+source leaprc.water.tip3p
+loadamberparams ions.frcmod
+loadamberparams hst.frcmod
+HST = loadmol2 hst.mol2
+loadamberparams gst.frcmod
+GST = loadmol2 gst.mol2
+loadamberparams dummy.frcmod
+DM1 = loadmol2 dm1.mol2
+DM2 = loadmol2 dm2.mol2
+DM3 = loadmol2 dm3.mol2
+model = loadpdb hst-gst-dum.trans.pdb
+# Skipping solvation ...
+savepdb model vac.pdb
+saveamberparm model vac.prmtop vac.rst7
+desc model
+quit
