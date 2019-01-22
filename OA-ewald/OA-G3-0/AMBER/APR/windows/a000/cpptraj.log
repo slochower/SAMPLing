@@ -1,0 +1,65 @@
+# 04/24/18 17:08:26
+trajin solvate.prmtop
+trajin solvate.rst7
+parm solvate.prmtop
+trajing solvate.rst7
+strip ':WAT,:Na+,:Cl-'
+parmout vac.prmtop
+saveamberparm vac.prmtop
+saveamberparm vac.rst7 vac.prmtop
+saveamberparam vac.rst7 vac.prmtop
+saveamberparm vac.rst7 vac.prmtop
+trajout vac.prmtop
+r
+q
+quit()
+# 04/24/18 17:10:20
+parmin solvate.prmtop
+parm solvate.prmtop
+strip ":WAT,:Na+,:Cl-" outprefix vac
+r
+run
+quit
+# 04/24/18 17:10:57
+parm solvate.prmtop
+strip ":WAT,:Na+,:Cl-" outprefix vac
+trajout
+trajin solvate.rst7
+trajout vac.rst7
+run
+quit
+# 04/24/18 17:12:22
+parm vac.prmtop
+trajin prod.001.nc
+quit
+# 04/24/18 17:13:16
+parm solvate.prmtop
+strip ":WAT,:Na+,:Cl-,:DUM" outprefix vac
+run
+trajin solvate.rst7
+trajout vac.rst7
+run
+quit
+# 04/24/18 17:14:02
+vim minimize.rst7
+qui
+quit
+# 04/24/18 17:17:04
+parm solvate.prmtop
+trajin solvate.rst7
+strip ":WAT,:Na+,:Cl-,:DM1,:DM2,:DM3" outprefix vac
+trajout vac.rst7
+run
+quit
+# 04/24/18 17:17:37
+parm vac.prmtop
+trajin prod.001.nc
+quit()
+quit
+# 04/25/18 09:53:50
+parm vac.prmtop
+trajin prod.001.nc
+run
+quit()
+vim vac.prmtop
+quit
