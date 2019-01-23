@@ -12,8 +12,8 @@ def prepare_plot():
     """
     sns.set()
     # Increase font size and linewidth
-    sns.set_context("talk")
-    sns.set_style("whitegrid")
+    sns.set_context("notebook", font_scale=2, rc={"lines.linewidth": 5})
+    sns.set_style("white")
     # Use LaTeX, setup to use Helvetica. This can be safely commented to make
     # the installation footprint of running this code smaller -- for example,
     # in Docker.
