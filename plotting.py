@@ -69,7 +69,7 @@ def paper_plot(
         color_with_alpha = colorConverter.to_rgba(facecolor, alpha)
         fig.patch.set_facecolor(color_with_alpha)
         # Stick the scientific notation into the axis label, instead of the
-        # default position which in the corner, which really makes no sense.
+        # default position which in the corenr, which really makes no sense.
         if ax.xaxis.get_scale() == "linear":
             ax.get_xaxis().set_minor_locator(mpl.ticker.AutoMinorLocator())
             ax.get_yaxis().set_minor_locator(mpl.ticker.AutoMinorLocator())
